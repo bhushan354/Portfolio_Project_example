@@ -1,113 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
-
-
 * {
-    margin: o;
-    padding: o;
+  margin: o;
+  padding: o;
 }
 
-.container{
-    display: flex;
-    
-    /* change width to match with other content */
-    width: 423px;
+.container {
+  display: flex;
 
-    height: 92px;
-    color: #ffffff;
-    background-color:#3C3A39;
-    justify-content: space-between;
-    align-items: end;
-    left: 0px;
-    top: 0px;
-    position: absolute;
+  /* change width to match with other content */
+  width: 423px;
+  height: 92px;
+  color: #fff;
+  background-color: #3c3a39;
+  justify-content: space-between;
+  align-items: end;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
 
-.myLogo{
-    width: 70px;
-    height: 24px;
-    line-height: 24px;
-    margin-left: 24px;
-    margin-bottom: 12px;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+.myLogo {
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.logoButton{
-    padding-right: 24px;
-    padding-bottom: 18px;
+.logoButton {
+  padding-right: 24px;
+  padding-bottom: 18px;
 }
 
-.mainSentences{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    gap: 12px;
-    position: absolute;
-    width: 375px;
-    height: 590px;
-    left: 0px;
-    top: 92px;
-    background: #1C1A19;
+.mainSentences {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  top: 92px;
+  background: #1c1a19;
 }
 
-.mainSentenceText{
-    width: 327px;
-    height: 124px;
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+.mainSentenceText {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 
-    /* Reduce font-size & line-height to accomodate "Bhushan" text */
-    font-size: 56px;
-    line-height: 64px;
-
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding: 120px 24px 0 24px;
+  /* Reduce font-size & line-height to accomodate "Bhushan" text */
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 120px 24px 0 24px;
 }
 
-.subSentenceText{
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    padding: 12px 24px 0 24px;
-    width: 327px;
-    height:27px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    align-items: center;
-    color: #fff5e1;
+.subSentenceText {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  padding: 12px 24px 0 24px;
+  width: 327px;
+  height: 27px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  color: #fff5e1;
 }
 
-.littleParagraph{
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding: 12px 24px 0 24px;
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+.littleParagraph {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px 24px 0 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 
-.connectIcons{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap:21px;
-    padding:0;
-    list-style: none;
-    margin-left: 24px;
-    margin-top: 12px;
-    width:200px;
-    height:40px;
+.connectIcons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 21px;
+  padding: 0;
+  list-style: none;
+  margin-left: 24px;
+  margin-top: 12px;
+  width: 200px;
+  height: 40px;
 }
