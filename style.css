@@ -2,55 +2,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
 * {
-  margin: o;
-  padding: o;
+  margin: opx;
+  padding: opx;
 }
 
 .container {
   display: flex;
-
-  /* change width to match with other content */
-  width: 423px;
-  height: 92px;
+  width: 375px;
+  height: 60px;
   color: #fff;
   background-color: #3c3a39;
   justify-content: space-between;
-  align-items: end;
-  left: 0;
-  top: 0;
-  position: absolute;
+  align-items: center; /* Changed from 'end' to 'center' */
+  flex-wrap: wrap;
 }
 
 .myLogo {
   width: 70px;
-  height: 24px;
+  height: 16px;
   line-height: 24px;
-  margin-left: 24px;
+  margin-left: 28px;
+  margin-right: 24px;
+  margin-top: 12px;
   margin-bottom: 12px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.logoButton {
-  padding-right: 24px;
-  padding-bottom: 18px;
+.menuButton {
+  width: 70px;
+  height: 16px;
+  line-height: 14px;
+  margin-left: 28px;
+  margin-right: -22px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .mainSentences {
+  /* background-image: url(Group.png); */
+  background-repeat: no-repeat;
+  background-size: initial;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 0 0;
   gap: 12px;
   position: absolute;
   width: 375px;
-  height: 590px;
-  left: 0;
-  top: 92px;
-  background: #1c1a19;
+  height: 595px;
+  background-color: black;
+
+  /* background-position: left bottom; */
 }
 
 .mainSentenceText {
@@ -59,8 +76,7 @@
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-
-  /* Reduce font-size & line-height to accomodate "Bhushan" text */
+  margin-top: 0;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -68,7 +84,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding: 120px 24px 0 24px;
+  padding: 100px 24px 0 24px;
 }
 
 .subSentenceText {
@@ -83,14 +99,16 @@
   line-height: 32px;
   align-items: center;
   color: #fff5e1;
+  margin-top: 0;
 }
 
 .littleParagraph {
   font-style: normal;
   font-size: 16px;
+  margin-top: -24px;
   font-weight: 400;
   line-height: 24px;
-  padding: 12px 24px 0 24px;
+  padding: 0 24px 0 24px;
   font-family: 'Poppins', sans-serif;
   color: #fff;
 }
@@ -99,11 +117,21 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  gap: 21px;
-  padding: 0;
+  gap: 24px;
   list-style: none;
-  margin-left: 24px;
-  margin-top: 12px;
+  margin-left: 0;
+  margin-top: 0;
   width: 200px;
   height: 40px;
+}
+
+.background {
+  position: absolute;
+  bottom: 175px;
+  right: -18px;
+  width: 150px; /* Adjust the width of the image */
+  height: 100px; /* Adjust the height of the image */
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
