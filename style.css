@@ -132,7 +132,6 @@
   background-size: cover;
 }
 
-/* from here adding new things */
 .SecondPage {
   margin-top: 520px;
   justify-items: centre;
@@ -391,7 +390,6 @@
   border: #f55800;
 }
 
-/* about ,me */
 .AboutMePage {
   display: flex;
   width: 382px;
