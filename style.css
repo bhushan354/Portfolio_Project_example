@@ -120,6 +120,389 @@
   margin-top: 0;
   width: 200px;
   height: 40px;
+<<<<<<< HEAD
+=======
+}
+
+.background {
+  position: absolute;
+  bottom: 175px;
+  right: -18px;
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* from here adding new things */
+.SecondPage {
+  margin-top: 520px;
+  justify-items: centre;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  grid-template-rows: 250px repeat(3, auto);
+  min-height: 90px;
+  margin-left: -8px;
+}
+
+.MyRecentWorksTop {
+  display: flex;
+  font-size: 40px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1c1a19;
+  margin-top: 142px;
+  width: 327px;
+  height: 35px;
+  margin-left: 27px;
+}
+
+.AboutLine1 {
+  width: 327px;
+  top: 814px;
+  position: absolute;
+  border: 1px solid #212121;
+  align-items: center;
+  margin-left: 26px;
+}
+
+.mainImage {
+  display: inline;
+  width: 327px;
+  height: 237px;
+  margin-left: 27px;
+  margin-top: 5px;
+}
+
+.multiPostStories {
+  display: flex;
+  align-items: center;
+  font-family: 'crete Round', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  width: 327px;
+  height: 36px;
+  color: #091e42;
+  margin-top: 14px;
+  margin-left: 27px;
+  margin-bottom: 0;
+}
+
+.pageInformation {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  width: 327px;
+  height: 147px;
+  line-height: 24px;
+  margin-top: 12px;
+  color: #091e42;
+  margin-left: 27px;
+}
+
+.techStacks {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  margin-left: -13px;
+}
+
+.stackButton {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: centre;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fff;
+  color: #091e42;
+  border: 2px solid #8993a4;
+  padding: 10px 12px;
+  margin-top: 12px;
+}
+
+.firstProjectButton {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  display: inline-block;
+  cursor: pointer;
+  width: 124px;
+  margin-top: 4px;
+  margin-left: 27px;
+}
+
+.firstProjectButton:hover {
+  border: #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.ThirdPage {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(6, 370px);
+  grid-template-columns: 100px;
+  width: 100px;
+  margin-left: 138px;
+}
+
+.Screen1 {
+  background-image: url(screen.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  height: 372px;
+  width: 327px;
+  margin-left: 5px;
+}
+
+.Screen2 {
+  background-image: url(screen.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 68px;
+  height: 372px;
+  width: 327px;
+  margin-left: 5px;
+}
+
+.Screen3 {
+  background-image: url(screen.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 113px;
+  height: 372px;
+  width: 327px;
+  margin-left: 5px;
+}
+
+.Screen4 {
+  background-image: url(screen.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 157px;
+  height: 372px;
+  width: 327px;
+  margin-left: 5px;
+}
+
+.Screen5 {
+  background-image: url(screen.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 202px;
+  height: 372px;
+  width: 327px;
+  margin-left: 5px;
+}
+
+.Screen6 {
+  background-image: url(screen.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 247px;
+  height: 372px;
+  width: 327px;
+  margin-left: 5px;
+}
+
+.PrintingData {
+  display: flex;
+  list-style: none;
+  width: 295px;
+  height: 81px;
+  margin-top: 40px;
+  padding-left: 13px;
+  padding-top: 30px;
+  line-height: 44px;
+  font-size: 32px;
+  font-style: normal;
+  font-family: 'create Round', sans-serif;
+  color: #fff;
+}
+
+.textSegment {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  line-height: 24px;
+  margin-top: 12px;
+  padding-left: 13px;
+}
+
+.builtWith {
+  margin-top: 0;
+  padding-left: 13px;
+  display: flex;
+  list-style: none;
+}
+
+.buttonOfTechStack {
+  text-align: centre;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 12px;
+  margin-top: 2px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.secondProjectButton {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  padding: 12px;
+  margin-top: -5px;
+  color: #fff;
+  border: none;
+  background-color: #ff6b00;
+}
+
+.secondProjectButton:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: #f55800;
+}
+
+/* about ,me */
+.AboutMePage {
+  display: flex;
+  width: 382px;
+  height: 100%;
+  background-color: #1c1a19;
+  flex-direction: column;
+  padding-top: 120px;
+  position: relative;
+  margin-top: 278px;
+  background-repeat: no-repeat;
+  margin-left: -2px;
+}
+
+.Header {
+  width: 327;
+  height: 79px;
+  color: #ff6b00;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.AboutMeTextSection {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  padding-top: 12px;
+  margin: 5px 24px 0 24px;
+}
+
+.ResumeButton {
+  width: 159px;
+  height: 66px;
+  font-family: 'Inter', sans-serif;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.ResumeButton:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.secondBackgroundImage {
+  background: url("Frame.png");
+  height: 260px;
+  width: 160px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 370px;
+}
+
+.AboutLine2 {
+  width: 327px;
+  top: 640px;
+  position: absolute;
+  border: 1px solid #fff;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.MySkills {
+  margin-top: 286px;
+  margin-left: -65px;
+  color: #fff;
+  text-align: center;
+}
+
+.Language1 {
+  font-family: "InaiMathi", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+  list-style: none;
+}
+
+.TechStacks {
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+>>>>>>> created_MyPortfolioPage
 }
 
 .background {

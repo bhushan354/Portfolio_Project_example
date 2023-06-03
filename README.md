@@ -6,7 +6,7 @@
    
 
 
-  <h3><b>My Portfolio Project</b></h3>
+  <h3><b>My Full Portfolio Project</b></h3>
 
 </div>
 
