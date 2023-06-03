@@ -255,7 +255,6 @@
   margin-left: 138px;
 }
 
-
 .Screen1 {
   background-image: url(screen.png);
   background-repeat: no-repeat;
@@ -357,7 +356,7 @@
   list-style: none;
 }
 
-.builtWith li{
+.builtWith li {
   text-align: centre;
   text-decoration: none;
   display: inline-block;
