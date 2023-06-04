@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
 * {
-  margin: opx;
-  padding: opx;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -64,7 +64,7 @@
   position: absolute;
   width: 375px;
   height: 595px;
-  background-color: black;
+  background-color: #000;
 }
 
 .mainSentenceText {
@@ -86,7 +86,7 @@
 
 .subSentenceText {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
   font-style: normal;
   padding: 12px 24px 0 24px;
   width: 327px;
@@ -356,7 +356,7 @@
 }
 
 .builtWith li {
-  text-align: centre;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
