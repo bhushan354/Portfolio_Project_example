@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -86,7 +86,7 @@
 
 .subSentenceText {
   display: flex;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   padding: 12px 24px 0 24px;
   width: 327px;
