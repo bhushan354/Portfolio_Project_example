@@ -122,16 +122,6 @@
   height: 40px;
 }
 
-.background {
-  position: absolute;
-  bottom: 175px;
-  right: -18px;
-  width: 150px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* from here adding new things */
 .SecondPage {
   margin-top: 520px;
@@ -500,7 +490,6 @@
   line-height: 43px;
   padding-top: 24px;
   padding-bottom: 24px;
->>>>>>> created_MyPortfolioPage
 }
 
 .background {
@@ -508,7 +497,7 @@
   bottom: 175px;
   right: -18px;
   width: 150px;
-  height: 100px; 
+  height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
