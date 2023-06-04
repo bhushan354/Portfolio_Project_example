@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: opx;
+  padding: opx;
 }
 
 .container {
@@ -64,7 +64,7 @@
   position: absolute;
   width: 375px;
   height: 595px;
-  background-color: #000;
+  background-color: black;
 }
 
 .mainSentenceText {
@@ -119,17 +119,10 @@
   margin-left: 0;
   margin-top: 0;
   width: 200px;
-  height: 40px;}
-.background {
-  position: absolute;
-  bottom: 175px;
-  right: -18px;
-  width: 150px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 40px;
 }
 
+/* from here adding new things */
 .SecondPage {
   margin-top: 520px;
   justify-items: centre;
@@ -209,10 +202,10 @@
   margin-left: -13px;
 }
 
-.techStacks li {
+.stackButton {
   font-weight: 400;
   font-size: 15px;
-  text-align: center;
+  text-align: centre;
   text-decoration: none;
   display: inline-block;
   background-color: #fff;
@@ -245,9 +238,10 @@
 }
 
 .ThirdPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(6, 370px);
+  grid-template-columns: 100px;
   width: 100px;
   margin-left: 138px;
 }
@@ -353,8 +347,8 @@
   list-style: none;
 }
 
-.builtWith li {
-  text-align: center;
+.buttonOfTechStack {
+  text-align: centre;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
@@ -388,6 +382,7 @@
   border: #f55800;
 }
 
+/* about ,me */
 .AboutMePage {
   display: flex;
   width: 382px;
@@ -396,7 +391,7 @@
   flex-direction: column;
   padding-top: 120px;
   position: relative;
-  margin-top: 400px;
+  margin-top: 278px;
   background-repeat: no-repeat;
   margin-left: -2px;
 }
@@ -495,4 +490,14 @@
   line-height: 43px;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.background {
+  position: absolute;
+  bottom: 175px;
+  right: -18px;
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
