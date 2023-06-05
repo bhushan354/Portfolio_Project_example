@@ -120,18 +120,6 @@
   margin-top: 0;
   width: 200px;
   height: 40px;
-<<<<<<< HEAD
-=======
-}
-
-.background {
-  position: absolute;
-  bottom: 175px;
-  right: -18px;
-  width: 150px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* from here adding new things */
@@ -502,7 +490,6 @@
   line-height: 43px;
   padding-top: 24px;
   padding-bottom: 24px;
->>>>>>> created_MyPortfolioPage
 }
 
 .background {
@@ -510,7 +497,7 @@
   bottom: 175px;
   right: -18px;
   width: 150px;
-  height: 100px; 
+  height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
