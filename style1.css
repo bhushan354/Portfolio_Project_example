@@ -1,0 +1,9 @@
+.button{
+    float: left;
+    padding: 10px;
+    gap: 10px;
+}
+
+.li{
+    font-size: 24px;
+}
