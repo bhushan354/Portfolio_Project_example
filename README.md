@@ -2,11 +2,7 @@
 
 
 <div align="center">
- 
-   
-
-
-  <h3><b>My Full Portfolio Project</b></h3>
+  <h3><b>My intro page Project</b></h3>
 
 </div>
 
@@ -38,7 +34,7 @@
 
 # 📖 [My Portfolio] <a name="Basic HTML and css Page"></a>
 
-> This is basic my portfolio page I build it with HTML and CSS
+> This is basic page I build it with HTML and CSS
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -65,8 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-1. Added Linters.yml file.
-2. Added index.html & style.css file.
+1. Added index.html & style.css file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
