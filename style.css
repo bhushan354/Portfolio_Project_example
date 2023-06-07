@@ -503,3 +503,27 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.form{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContent > h1{
+  flex: none;
+  color:  #172b4d;
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  width: 100%;
+  position: static;
+  margin: 0px 0px 0px 0px;
+  font-family: "Inter", sans-serif;
+  height: 216px;
+  order: 0;
+  flex-grow: 0;
+
+}
