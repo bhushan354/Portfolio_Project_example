@@ -8,13 +8,14 @@
 
 .container {
   display: flex;
-  width: 375px;
+  width: 100%;
   height: 60px;
   color: #fff;
   background-color: #3c3a39;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 8px;
 }
 
 .myLogo {
@@ -62,7 +63,7 @@
   padding: 0 0;
   gap: 12px;
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 595px;
   background-color: black;
 }
@@ -125,7 +126,7 @@
 /* from here adding new things */
 .SecondPage {
   margin-top: 520px;
-  justify-items: centre;
+  justify-items: center;
   display: grid;
   grid-template-columns: 100%;
   width: 100%;
@@ -226,7 +227,7 @@
   font-size: 17px;
   display: inline-block;
   cursor: pointer;
-  width: 124px;
+  /* width: 40%; */
   margin-top: 4px;
   margin-left: 27px;
 }
@@ -242,8 +243,8 @@
   justify-items: center;
   grid-template-rows: repeat(6, 370px);
   grid-template-columns: 100px;
-  width: 100px;
-  margin-left: 138px;
+  width: 100%;
+  margin-left: 282px;
 }
 
 .Screen1 {
@@ -385,13 +386,13 @@
 /* about ,me */
 .AboutMePage {
   display: flex;
-  width: 382px;
+  width: 100%;
   height: 100%;
   background-color: #1c1a19;
   flex-direction: column;
   padding-top: 120px;
   position: relative;
-  margin-top: 278px;
+  margin-top: 375px;
   background-repeat: no-repeat;
   margin-left: -2px;
 }
