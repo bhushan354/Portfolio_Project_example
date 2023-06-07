@@ -511,7 +511,7 @@
   flex-direction: column;
 }
 
-.mainContent > h1{
+.mainContent{
   flex: none;
   color:  #172b4d;
   font-weight: 700;
@@ -525,5 +525,77 @@
   height: 216px;
   order: 0;
   flex-grow: 0;
+}
 
+.input{
+  display: flex;
+  padding: 0px;
+  list-style: none;
+  flex-direction: column;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+
+.newInputName{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #979493;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0 40px 0 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.Email{
+  margin-top: 25px;
+}
+
+.gaps{
+  margin: 14px 0px 0px ;
+  width: 236px;;
+  border: 1px solid #dbd8d7;
+}
+
+.newInputName{
+  flex: 1 1 auto;
+  padding-right: 100px;
+  border: none;
+  margin-left: 69px;
+  margin-right: -42px;
+}
+
+.newInputEmail{
+  margin: 6px 94px 26px 37px;;
+}
+
+.textArea1{
+  flex: 1 1 auto;
+  background-color: #fbf8f7;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 12px;
+  height: 90px;
+  margin: 36px;
+  margin-top: -65px;
+}
+
+.connectIcons2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+  margin-left: -43px;
+  margin-top: 433px;
+  width: 200px;
+  height: 40px;
 }
