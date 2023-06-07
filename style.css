@@ -244,8 +244,8 @@
   justify-items: center;
   grid-template-rows: repeat(6, 370px);
   grid-template-columns: 100px;
-  width: 100%;
-  margin-left: 282px;
+  width: 179px;
+  margin-left: 94px;
 }
 
 .Screen1 {
@@ -412,7 +412,6 @@
 }
 
 .AboutMeTextSection {
-  width: 327px;
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -421,11 +420,11 @@
   line-height: 24px;
   color: #f4f5f7;
   padding-top: 12px;
-  margin: 5px 24px 0 24px;
+  margin: 0px 24px 0 25px
 }
 
 .ResumeButton {
-  width: 159px;
+  width: 192px;
   height: 66px;
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
@@ -435,7 +434,7 @@
   text-align: center;
   display: inline-block;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 19px;
   letter-spacing: 0.03em;
   cursor: pointer;
   margin-top: 24px;
@@ -458,13 +457,14 @@
   top: 370px;
 }
 
-.AboutLine2 {
-  width: 327px;
+.AboutLine2 { 
+  width: 95%;
   top: 640px;
   position: absolute;
   border: 1px solid #fff;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .MySkills {
@@ -513,14 +513,14 @@
 
 .mainContent{
   flex: none;
-  color:  #172b4d;
+  color: #172b4d;
   font-weight: 700;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 44px;
-  width: 100%;
-  position: static;
-  margin: 0px 0px 0px 0px;
+  width: 369px;
+  position: absolute;
+  margin: 52px 0px 0px 0px;
   font-family: "Inter", sans-serif;
   height: 216px;
   order: 0;
@@ -536,56 +536,58 @@
   margin-right: -10px;
 }
 
-.newInputName{
-  display: flex;
-  flex-direction: column;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #979493;
-  font-style: normal;
-  font-size: 15px;
-  margin: 0 40px 0 40px;
-  font-family: "Inter", sans-serif;
-}
 
 .Email{
   margin-top: 25px;
 }
 
-.gaps{
-  margin: 14px 0px 0px ;
-  width: 236px;;
+.gaps1{
+  margin: 4px -19px 0px;
+  width: 315px;
   border: 1px solid #dbd8d7;
 }
 
+.gaps2{
+  margin: -4px 13px 0px;
+  width: 315px;
+  border: 1px solid #dbd8d7;
+ }
+
 .newInputName{
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
   flex: 1 1 auto;
   padding-right: 100px;
   border: none;
+  font-family: "Inter", sans-serif;
   margin-left: 69px;
   margin-right: -42px;
 }
 
 .newInputEmail{
-  margin: 6px 94px 26px 37px;;
+  margin: 6px 132px 26px 37px;
+
 }
 
 .textArea1{
-  flex: 1 1 auto;
+  display: flex;
   background-color: #fbf8f7;
   border: none;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  font-style: normal;
+  font-style:  italic;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
+  color: #3C3A39;
   text-align: left;
   padding: 12px;
   height: 90px;
-  margin: 36px;
+  margin: 56px;
   margin-top: -65px;
+  width: 276px;
 }
 
 .connectIcons2 {
@@ -594,8 +596,20 @@
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: -43px;
-  margin-top: 433px;
+  margin-left: -38px;
+  margin-top: 680px;
   width: 200px;
   height: 40px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  width: 0px;
+  height: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #ff6b00;
 }
