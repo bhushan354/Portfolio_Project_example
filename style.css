@@ -576,10 +576,6 @@ input#Name {
   border: none;
 }
 
-.submit {
-  border: none;
-}
-
 
 .textArea1 {
   display: flex;
@@ -617,6 +613,7 @@ input#Name {
 }
 
 .submit {
+  border: none;
   background-color: #ff6b00;
   display: flex;
   justify-content: center;
