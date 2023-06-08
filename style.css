@@ -599,8 +599,19 @@
   height: 40px;
 }
 
-
-
 .line3 {
   margin-top: 700px;
+}
+
+.submit {
+  background-color: #ff6b00;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+  margin-left: 10px;
 }
