@@ -564,9 +564,22 @@
   margin-right: -42px;
 }
 
+input#Name {
+  border: none;
+}
+
 .newInputEmail {
   margin: 6px 132px 26px 37px;
 }
+
+#Email {
+  border: none;
+}
+
+.submit {
+  border: none;
+}
+
 
 .textArea1 {
   display: flex;
@@ -599,8 +612,27 @@
   height: 40px;
 }
 
-
-
 .line3 {
   margin-top: 700px;
+}
+
+.submit {
+  background-color: #ff6b00;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.button1 {
+  width: 136px;
+  height: 56px;
+  margin-top: -36px;
+  margin-left: 140px;
+  background-color: #ff6b00;
 }
