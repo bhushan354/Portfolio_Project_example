@@ -227,7 +227,7 @@
   font-size: 17px;
   display: inline-block;
   cursor: pointer;
-  
+
   /* width: 40%; */
   margin-top: 4px;
   margin-left: 27px;
@@ -420,7 +420,7 @@
   line-height: 24px;
   color: #f4f5f7;
   padding-top: 12px;
-  margin: 0px 24px 0 25px
+  margin: 0 24px 0 25px;
 }
 
 .ResumeButton {
@@ -457,7 +457,7 @@
   top: 370px;
 }
 
-.AboutLine2 { 
+.AboutLine2 {
   width: 95%;
   top: 640px;
   position: absolute;
@@ -504,14 +504,14 @@
   background-size: cover;
 }
 
-.form{
+.form {
   display: flex;
-  margin: auto;
+  margin: 70px 0 0 0;
   align-items: center;
   flex-direction: column;
 }
 
-.mainContent{
+.mainContent {
   flex: none;
   color: #172b4d;
   font-weight: 700;
@@ -520,45 +520,43 @@
   line-height: 44px;
   width: 369px;
   position: absolute;
-  margin: 52px 0px 0px 0px;
+  margin: 52px 0 0 0;
   font-family: "Inter", sans-serif;
   height: 216px;
   order: 0;
   flex-grow: 0;
 }
 
-.input{
+.input {
   display: flex;
-  padding: 0px;
+  padding: 0;
   list-style: none;
   flex-direction: column;
   margin-left: -20px;
   margin-right: -10px;
 }
 
-
-.Email{
+.Email {
   margin-top: 25px;
 }
 
-.gaps1{
-  margin: 4px -19px 0px;
+.gaps1 {
+  margin: 4px -19px 0;
   width: 315px;
   border: 1px solid #dbd8d7;
 }
 
-.gaps2{
-  margin: -4px 13px 0px;
+.gaps2 {
+  margin: -4px 13px 0;
   width: 315px;
   border: 1px solid #dbd8d7;
- }
+}
 
-.newInputName{
+.newInputName {
   font-weight: 400;
   display: flex;
   flex-direction: column;
-  font-weight: 400;
-  flex: 1 1 auto;
+  flex: 1 auto;
   padding-right: 100px;
   border: none;
   font-family: "Inter", sans-serif;
@@ -566,22 +564,21 @@
   margin-right: -42px;
 }
 
-.newInputEmail{
+.newInputEmail {
   margin: 6px 132px 26px 37px;
-
 }
 
-.textArea1{
+.textArea1 {
   display: flex;
   background-color: #fbf8f7;
   border: none;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  font-style:  italic;
+  font-style: italic;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
-  color: #3C3A39;
+  color: #3c3a39;
   text-align: left;
   padding: 12px;
   height: 90px;
@@ -596,20 +593,14 @@
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: -38px;
-  margin-top: 680px;
+  margin-left: -23px;
+  margin-top: 43px;
   width: 200px;
   height: 40px;
 }
 
 
-.button {
-  display: flex;
-  justify-content: center;
-  border: none;
-  width: 0px;
-  height: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  background-color: #ff6b00;
+
+.line3 {
+  margin-top: 700px;
 }
