@@ -233,12 +233,6 @@
   margin-left: 27px;
 }
 
-.firstProjectButton:hover {
-  border: #f55800;
-  color: #f55800;
-  background-color: #fff5e1;
-}
-
 .ThirdPage {
   display: grid;
   justify-items: center;
