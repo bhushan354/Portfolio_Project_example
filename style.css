@@ -160,12 +160,16 @@
   margin-left: 26px;
 }
 
-.mainImage {
+.mainimage1 {
   display: inline;
   width: 327px;
   height: 237px;
   margin-left: 27px;
   margin-top: 5px;
+}
+
+.mainimage2{
+  display: none;
 }
 
 .multiPostStories {
@@ -631,4 +635,134 @@ input#Name {
   margin-top: -36px;
   margin-left: 140px;
   background-color: #ff6b00;
+}
+
+@media (min-width: 768px) {
+  #upperSection {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 151px;
+    align-items: center;
+    flex: 1;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 72px;
+  }
+
+  .menuButtonMain{
+    display: none;
+  }
+
+  .navbar{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 32px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+
+  .mainSentences{
+    width: 1440px;
+    height: 798px;
+    background-image: url(images/desk-img1.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .mainSentenceText{
+    width: 566px;
+    order: 1;
+    margin-left: 143px;
+    margin-top: 60px;
+  }
+
+  .subSentenceText{
+    width: 566px;
+    margin-left: 143px;
+    margin-top: 24px;
+    order: 3;
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .littleParagraph{
+    font-weight: 500;
+    font-size: 20px;
+    width: 566px;
+    height: 123px;
+    margin-left: 143px;
+    margin-top: 24px;
+    order: 4;
+  }
+
+  .connectIcons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0.5%;
+    right: 96.11%;
+    top: 25.37%;
+    bottom: 89.19%;
+    order: 2;
+    margin-top: 140px;
+    margin-left: 36px;
+    margin-right: 90px;
+  }
+
+  .background{
+    display: none;
+  }
+
+  .SecondPage{
+    margin-top: 732px;
+    margin-left: -112px;
+  }
+
+  .myProjects {
+    display: flex;
+    margin-left: 30.5px;
+  }
+
+  .MyRecentWorksTop{
+    font-family: 'Crete Round', sans-serif;
+    font-size: 40px;
+    margin-right: 24px;
+    width: 315px;
+  }
+
+  .AboutLine1{
+    height: 0;
+    margin-top: 185px;
+    width: 794px;
+    margin-left: 347px;
+    border: 1px solid #212121;
+  }
+
+  .mainimage1{
+    display: none;
+  }
+
+  .mainimage2{
+    display: block;
+    margin-top: 0px;
+    margin-left: 196px;
+    margin-right: -78px;
+    height: 476px;
+  }
+
+  .rightSection{
+    width: 203px;
+    height: 426px;
+    margin-left: 1105px;
+    margin-top: -425px;
+  }
 }
