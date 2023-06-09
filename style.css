@@ -36,7 +36,10 @@
   flex-grow: 0;
 }
 
-//
+.myLogo {
+  transform: rotate(45deg); 
+  background-color: pink;
+}
 
 .menuButton {
   width: 70px;
