@@ -236,19 +236,13 @@
   margin-left: 27px;
 }
 
-.firstProjectButton:hover {
-  border: #f55800;
-  color: #f55800;
-  background-color: #fff5e1;
-}
-
 .ThirdPage {
   display: grid;
   justify-items: center;
   grid-template-rows: repeat(6, 370px);
   grid-template-columns: 100px;
-  width: 100%;
-  margin-left: 282px;
+  width: 179px;
+  margin-left: 94px;
 }
 
 .Screen1 {
@@ -415,7 +409,6 @@
 }
 
 .AboutMeTextSection {
-  width: 327px;
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -424,11 +417,11 @@
   line-height: 24px;
   color: #f4f5f7;
   padding-top: 12px;
-  margin: 5px 24px 0 24px;
+  margin: 0 24px 0 25px;
 }
 
 .ResumeButton {
-  width: 159px;
+  width: 192px;
   height: 66px;
   font-family: 'Inter', sans-serif;
   background-color: #ff6b00;
@@ -438,7 +431,7 @@
   text-align: center;
   display: inline-block;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 19px;
   letter-spacing: 0.03em;
   cursor: pointer;
   margin-top: 24px;
@@ -462,12 +455,13 @@
 }
 
 .AboutLine2 {
-  width: 327px;
+  width: 95%;
   top: 640px;
   position: absolute;
   border: 1px solid #fff;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .MySkills {
@@ -505,4 +499,133 @@
   height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.form {
+  display: flex;
+  margin: 70px 0 0 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex: none;
+  color: #172b4d;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  line-height: 44px;
+  width: 369px;
+  position: absolute;
+  margin: 52px 0 0 0;
+  font-family: "Inter", sans-serif;
+  height: 216px;
+  order: 0;
+  flex-grow: 0;
+}
+
+.input {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  flex-direction: column;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+
+.Email {
+  margin-top: 25px;
+}
+
+.gaps1 {
+  margin: 4px -19px 0;
+  width: 315px;
+  border: 1px solid #dbd8d7;
+}
+
+.gaps2 {
+  margin: -4px 13px 0;
+  width: 315px;
+  border: 1px solid #dbd8d7;
+}
+
+.newInputName {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  padding-right: 100px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  margin-left: 69px;
+  margin-right: -42px;
+}
+
+input#Name {
+  border: none;
+}
+
+.newInputEmail {
+  margin: 6px 132px 26px 37px;
+}
+
+#Email {
+  border: none;
+}
+
+.textArea1 {
+  display: flex;
+  background-color: #fbf8f7;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #3c3a39;
+  text-align: left;
+  padding: 12px;
+  height: 90px;
+  margin: 56px;
+  margin-top: -65px;
+  width: 276px;
+}
+
+.connectIcons2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+  margin-left: -23px;
+  margin-top: 43px;
+  width: 200px;
+  height: 40px;
+}
+
+.line3 {
+  margin-top: 700px;
+}
+
+.submit {
+  border: none;
+  background-color: #ff6b00;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.button1 {
+  width: 136px;
+  height: 56px;
+  margin-top: -36px;
+  margin-left: 140px;
+  background-color: #ff6b00;
 }
