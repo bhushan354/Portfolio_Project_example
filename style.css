@@ -445,7 +445,11 @@
   margin-left: 24px;
 }
 
-//
+.ResumeButton:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
 
 .secondBackgroundImage {
   background: url("Frame.png");
