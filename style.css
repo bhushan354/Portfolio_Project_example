@@ -1,37 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
-
 @media (max-width: 768px) {
-  .background-D{
+  .background-D {
     display: none;
   }
-  #upperSection{
+
+  #upperSection {
     display: none;
   }
-  .PrintingData2-5D{
+
+  .PrintingData2-5D {
     display: none;
   }
-  .textSegment2-5D{
+
+  .textSegment2-5D {
     display: none;
   }
-  .PrintingData3-6D{
+
+  .PrintingData3-6D {
     display: none;
   }
-  .textSegment3-6D{
+
+  .textSegment3-6D {
     display: none;
   }
-  .PrintingData4{
+
+  .PrintingData4 {
     display: none;
   }
-  .textSegment4{
+
+  .textSegment4 {
     display: none;
   }
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -43,7 +49,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0px;
+  padding: 0;
 }
 
 .myLogo {
@@ -63,7 +69,6 @@
   order: 0;
   flex-grow: 0;
 }
-
 
 .menuButton {
   width: 70px;
@@ -688,7 +693,6 @@ input#Name {
 }
 
 @media (min-width: 768px) {
-
   .background-D {
     margin-left: 776px;
   }
@@ -1166,7 +1170,7 @@ input#Name {
     margin-top: 15px;
     padding: -22px;
     max-width: 1440px;
-    height: 614px
+    height: 614px;
   }
 
   .smallPara {
@@ -1234,6 +1238,7 @@ input#Name {
     margin-left: 69px;
     margin-right: -42px;
   }
+
   .newInputName02 {
     font-weight: 400;
     position: absolute;
@@ -1301,6 +1306,4 @@ input#Name {
     left: 474px;
     right: 0;
   }
-  
-  
 }
