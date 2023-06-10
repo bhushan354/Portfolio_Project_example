@@ -1,9 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
+
+@media (max-width: 768px) {
+  .background-D{
+    display: none;
+  }
+  #upperSection{
+    display: none;
+  }
+  .PrintingData2-5D{
+    display: none;
+  }
+  .textSegment2-5D{
+    display: none;
+  }
+  .PrintingData3-6D{
+    display: none;
+  }
+  .textSegment3-6D{
+    display: none;
+  }
+  .PrintingData4{
+    display: none;
+  }
+  .textSegment4{
+    display: none;
+  }
+}
+
 * {
-  margin: opx;
-  padding: opx;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -15,7 +43,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 8px;
+  padding: 0px;
 }
 
 .myLogo {
@@ -35,6 +63,7 @@
   order: 0;
   flex-grow: 0;
 }
+
 
 .menuButton {
   width: 70px;
@@ -97,13 +126,13 @@
   line-height: 32px;
   align-items: center;
   color: #fff5e1;
-  margin-top: 0;
+  margin-top: 55px;
 }
 
 .littleParagraph {
   font-style: normal;
   font-size: 16px;
-  margin-top: -24px;
+  margin-top: 28px;
   font-weight: 400;
   line-height: 24px;
   padding: 0 24px 0 24px;
@@ -117,8 +146,8 @@
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: 0;
-  margin-top: 0;
+  margin-left: 22px;
+  margin-top: 4px;
   width: 200px;
   height: 40px;
 }
@@ -201,10 +230,11 @@
 }
 
 .techStacks {
+  margin-top: 18px;
   display: flex;
   gap: 12px;
   list-style: none;
-  margin-left: -13px;
+  margin-left: 28px;
 }
 
 .stackButton {
@@ -383,7 +413,7 @@
   cursor: pointer;
   text-align: center;
   padding: 12px;
-  margin-top: -5px;
+  margin-top: 24px;
   color: #fff;
   border: none;
   background-color: #ff6b00;
@@ -535,7 +565,7 @@
   line-height: 44px;
   width: 369px;
   position: absolute;
-  margin: 52px 0 0 0;
+  margin: 30px 0 0 0;
   font-family: "Inter", sans-serif;
   height: 216px;
   order: 0;
@@ -612,9 +642,9 @@ input#Name {
   color: #3c3a39;
   text-align: left;
   padding: 12px;
-  height: 90px;
+  height: 87px;
   margin: 56px;
-  margin-top: -65px;
+  margin-top: 2px;
   width: 276px;
 }
 
@@ -631,7 +661,8 @@ input#Name {
 }
 
 .line3 {
-  margin-top: 700px;
+  width: 986px;
+  margin-top: 591px;
 }
 
 .submit {
@@ -657,10 +688,6 @@ input#Name {
 }
 
 @media (min-width: 768px) {
-  * {
-    margin: opx;
-    padding: opx;
-  }
 
   .background-D {
     margin-left: 776px;
@@ -779,8 +806,9 @@ input#Name {
   }
 
   .SecondPage {
-    margin-top: 732px;
-    margin-left: -112px;
+    padding: -20px;
+    margin-top: 755px;
+    margin-left: -634px;
   }
 
   .myProjects {
@@ -847,7 +875,7 @@ input#Name {
   .techStacks {
     display: flex;
     margin-top: 48px;
-    margin-left: 42px;
+    margin-left: 82px;
     margin-right: 0;
     height: 0;
     width: 0;
@@ -872,9 +900,8 @@ input#Name {
     justify-items: center;
     width: 100%;
     max-width: 1440px;
-    column-gap: 24px;
+    gap: 17px -4px;
     height: 554px;
-    row-gap: 37px;
     justify-content: center;
     margin-top: 28px;
     margin-left: 828px;
@@ -926,7 +953,7 @@ input#Name {
     list-style: none;
     width: 295px;
     height: 81px;
-    margin-top: 143px;
+    margin-top: 138px;
     padding-left: 13px;
     padding-top: 30px;
     line-height: 44px;
@@ -945,7 +972,7 @@ input#Name {
     width: 300px;
     height: 100px;
     line-height: 24px;
-    margin-top: -30px;
+    margin-top: -9px;
     padding-left: 13px;
   }
 
@@ -987,7 +1014,7 @@ input#Name {
     width: 300px;
     height: 100px;
     line-height: 24px;
-    margin-top: -30px;
+    margin-top: -14px;
     padding-left: 13px;
   }
 
@@ -1024,9 +1051,9 @@ input#Name {
     font-weight: 400;
     color: #fff;
     width: 300px;
-    height: 100px;
+    height: 94px;
     line-height: 24px;
-    margin-top: -30px;
+    margin-top: -6px;
     padding-left: 13px;
   }
 
@@ -1134,10 +1161,12 @@ input#Name {
     flex-direction: row;
     display: flex;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin-left: 256px;
+    margin-left: 220px;
+    margin-top: 15px;
+    padding: -22px;
     max-width: 1440px;
-    height: 614px;
+    height: 614px
   }
 
   .smallPara {
@@ -1154,7 +1183,7 @@ input#Name {
     flex-direction: column;
     margin-left: 341px;
     margin-right: -10px;
-    margin-top: -232px;
+    margin-top: -204px;
   }
 
   .mainContent {
@@ -1185,7 +1214,7 @@ input#Name {
 
   .gaps2 {
     margin: -3px -17px 0;
-    width: 310px;
+    width: 670px;
     border: 1px solid #dbd8d7;
   }
 
@@ -1205,7 +1234,6 @@ input#Name {
     margin-left: 69px;
     margin-right: -42px;
   }
-
   .newInputName02 {
     font-weight: 400;
     position: absolute;
@@ -1215,7 +1243,7 @@ input#Name {
     padding-right: 100px;
     border: none;
     font-family: "Inter", sans-serif;
-    margin-left: 408px;
+    margin-left: 425px;
     margin-right: -42px;
   }
 
@@ -1229,6 +1257,7 @@ input#Name {
 
   #Email {
     border: none;
+    width: 538px;
   }
 
   .textArea1 {
@@ -1246,8 +1275,8 @@ input#Name {
     padding: 12px;
     height: 90px;
     margin: 56px;
-    margin-top: -65px;
-    width: 622px;
+    margin-top: -2px;
+    width: 644px;
   }
 
   .button1 {
@@ -1258,22 +1287,20 @@ input#Name {
     background-color: #ff6b00;
   }
 
-  .gaps3 {
-    margin-top: -198px;
-    margin-left: 564px;
-    width: 1256px;
-    border: 1px solid #dbd8d7;
-  }
-
   .connectIcons22 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     gap: 28px;
     list-style: none;
-    margin-left: 568px;
-    margin-top: 28px;
-    width: 222px;
-    height: 40px;
+    width: 435px;
+    height: 13px;
+    position: absolute;
+    bottom: -3935px;
+    left: 474px;
+    right: 0;
   }
+  
+  
 }
