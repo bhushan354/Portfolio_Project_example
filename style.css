@@ -17,7 +17,6 @@
   flex-wrap: wrap;
   padding: 8px;
 }
-.uppersection
 
 .myLogo {
   width: 70px;
@@ -274,12 +273,7 @@
   width: 327px;
   margin-left: 5px;
 }
-.PrintingData2-5D{
-  display: none;
-}
-.textSegment2-5D{
-  display: none;
-}
+
 
 .Screen3 {
   background-image: url(screen.png);
@@ -291,12 +285,7 @@
   width: 327px;
   margin-left: 5px;
 }
-.PrintingData3-6D{
-  display: none;
-}
-.textSegment3-6D{
-  display: none;
-}
+
 
 .Screen4 {
   background-image: url(screen.png);
@@ -308,12 +297,7 @@
   width: 327px;
   margin-left: 5px;
 }
-.PrintingData4{
-  display: none;
-}
-.textSegment4{
-  display: none;
-}
+
 
 .Screen5 {
   background-image: url(screen.png);
@@ -902,7 +886,9 @@ input#Name {
   .PrintingData{
     display: none;
   }
-  
+  .textSegment{
+    display: none;
+  }
   .builtWith1{
     display: none;
   }
