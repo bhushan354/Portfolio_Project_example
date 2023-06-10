@@ -352,6 +352,12 @@
   display: flex;
   list-style: none;
 }
+.builtWith1 {
+  margin-top: 0;
+  padding-left: 13px;
+  display: flex;
+  list-style: none;
+}
 
 .buttonOfTechStack {
   text-align: centre;
@@ -730,20 +736,21 @@ input#Name {
   .myProjects {
     display: flex;
     margin-left: 30.5px;
+    margin-top: 58px;
   }
 
   .MyRecentWorksTop{
     font-family: 'Crete Round', sans-serif;
     font-size: 40px;
-    margin-right: 24px;
-    width: 315px;
+    margin-right: -64px;
+    width: 314px;
   }
 
   .AboutLine1{
     height: 0;
-    margin-top: 185px;
-    width: 794px;
-    margin-left: 347px;
+    margin-top: 242px;
+    width: 698px;
+    margin-left: 366px;
     border: 1px solid #212121;
   }
 
@@ -752,11 +759,12 @@ input#Name {
   }
 
   .mainimage2{
-    display: block;
-    margin-top: 0px;
-    margin-left: 196px;
+    display: flex;
+    margin-top: 55px;
+    margin-left: 528px;
     margin-right: -78px;
-    height: 476px;
+    height: 436px;
+    width: 640px;
   }
 
   .rightSection{
@@ -764,5 +772,138 @@ input#Name {
     height: 426px;
     margin-left: 1105px;
     margin-top: -425px;
+  }
+
+  .multiPostStories{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: 0px;
+    height: -40px;
+    width: 448px;
+    font-size: 36px;
+  }
+  .pageInformation{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 82px;
+    margin-right: 0px;
+    height: 89px;
+    width: 448px;
+    font-size: 19px;
+  }
+  .techStacks{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 42px;
+    margin-right: 0px;
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+  }
+  .firstProjectButton{
+    display: flex;
+    margin-top: 77px;
+    margin-left: 80px;
+    margin-right: 0px;
+    height: 55px;
+    width: 124px;
+    font-size: 17px;
+    align-items: center;
+  }
+
+  .ThirdPage{
+    display: grid;
+    grid-template-columns: repeat(3, 352px);
+    grid-template-rows: repeat(2, 404px);
+    justify-items: center;
+    width: 100%;
+    max-width: 1440px;
+    column-gap: 24px;
+    height: 554px;
+    row-gap: 37px;
+    justify-content: center;
+    margin-top: 28px;
+    margin-left: 828px;
+  }
+
+  .builtWith{
+    margin-top: 322px;
+  }
+
+  .Screen1D{
+    background-image: url(1D.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+    height: 398px;
+    width: 327px;
+    margin-left: 5px;
+  }
+  
+  .screen1{
+    display: grid;
+  }
+  .PrintingData{
+    display: none;
+  }
+  .textSegment{
+    display: none;
+  }
+  .builtWith1{
+    display: none;
+  }
+  .secondProjectButton{
+    margin-top: 329px;
+  }
+
+  .Screen2D{
+    background-image: url(screen.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+    height: 372px;
+    width: 327px;
+    margin-left: 5px;
+  }
+  .Screen3D{
+    background-image: url(screen.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+    height: 372px;
+    width: 327px;
+    margin-left: 5px;
+  }
+  .Screen4D{
+    background-image: url(screen.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+    height: 372px;
+    width: 327px;
+    margin-left: 5px;
+  }
+  .Screen5D{
+    background-image: url(screen.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+    height: 372px;
+    width: 327px;
+    margin-left: 5px;
+  }
+  .Screen6D{
+    background-image: url(screen.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0px;
+    height: 372px;
+    width: 327px;
+    margin-left: 5px;
+  }
+
+  .secondProjectButtonD{
+    display: none;
   }
 }
