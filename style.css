@@ -660,10 +660,15 @@ input#Name {
     margin: opx;
     padding: opx;
 }
-  #upperSection {
+
+.background-D{
+    margin-left: 776px;
+}
+
+#upperSection {
     display: flex;
     justify-content: end;
-    margin-right: 151px;
+    margin-right: 190px;
     align-items: baseline;
     flex: 1;
   }
@@ -728,7 +733,7 @@ input#Name {
     width: 566px;
     order: 1;
     margin-left: 143px;
-    margin-top: 60px;
+    margin-top: -736px;
   }
 
   .subSentenceText{
