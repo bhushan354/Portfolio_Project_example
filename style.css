@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
 * {
@@ -27,7 +27,7 @@
   margin-top: 12px;
   margin-bottom: 12px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -45,7 +45,7 @@
   margin-top: 12px;
   margin-bottom: 12px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -71,7 +71,7 @@
 .mainSentenceText {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   margin-top: 0;
@@ -87,7 +87,7 @@
 
 .subSentenceText {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   padding: 12px 24px 0 24px;
   width: 327px;
@@ -107,7 +107,7 @@
   font-weight: 400;
   line-height: 24px;
   padding: 0 24px 0 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
@@ -138,7 +138,7 @@
 .MyRecentWorksTop {
   display: flex;
   font-size: 40px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
@@ -168,14 +168,14 @@
   margin-top: 5px;
 }
 
-.mainimage2{
+.mainimage2 {
   display: none;
 }
 
 .multiPostStories {
   display: flex;
   align-items: center;
-  font-family: 'crete Round', sans-serif;
+  font-family: "crete Round", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
@@ -188,7 +188,7 @@
 }
 
 .pageInformation {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -226,7 +226,7 @@
   color: #fff;
   padding: 12px;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   display: inline-block;
@@ -274,7 +274,6 @@
   margin-left: 5px;
 }
 
-
 .Screen3 {
   background-image: url(screen.png);
   background-repeat: no-repeat;
@@ -286,7 +285,6 @@
   margin-left: 5px;
 }
 
-
 .Screen4 {
   background-image: url(screen.png);
   background-repeat: no-repeat;
@@ -297,7 +295,6 @@
   width: 327px;
   margin-left: 5px;
 }
-
 
 .Screen5 {
   background-image: url(screen.png);
@@ -332,12 +329,12 @@
   line-height: 44px;
   font-size: 32px;
   font-style: normal;
-  font-family: 'create Round', sans-serif;
+  font-family: "create Round", sans-serif;
   color: #fff;
 }
 
 .textSegment {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -355,6 +352,7 @@
   display: flex;
   list-style: none;
 }
+
 .builtWith1 {
   margin-top: 0;
   padding-left: 13px;
@@ -378,7 +376,7 @@
 
 .secondProjectButton {
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -426,7 +424,7 @@
 
 .AboutMeTextSection {
   height: 148px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -435,14 +433,15 @@
   padding-top: 12px;
   margin: 0 24px 0 25px;
 }
-.AboutMeTextSection-D{
-  display:none
+
+.AboutMeTextSection-D {
+  display: none;
 }
 
 .ResumeButton {
   width: 192px;
   height: 66px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #ff6b00;
   border: none;
   color: #fff;
@@ -579,10 +578,12 @@
   margin-left: 69px;
   margin-right: -42px;
 }
-.newInputName01{
+
+.newInputName01 {
   display: none;
 }
-.newInputName02{
+
+.newInputName02 {
   display: none;
 }
 
@@ -659,20 +660,21 @@ input#Name {
   * {
     margin: opx;
     padding: opx;
-}
+  }
 
-.background-D{
+  .background-D {
     margin-left: 776px;
-}
+  }
 
-#upperSection {
+  #upperSection {
     display: flex;
     justify-content: end;
     margin-right: 190px;
     align-items: baseline;
     flex: 1;
   }
-  .myLogo{
+
+  .myLogo {
     width: 70px;
     height: 16px;
     line-height: 24px;
@@ -681,7 +683,7 @@ input#Name {
     margin-top: 12px;
     margin-bottom: 12px;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -690,20 +692,20 @@ input#Name {
     flex-grow: 0;
   }
 
-  .container{
+  .container {
     display: flex;
     justify-content: space-between;
     width: 1440px;
     height: 72px;
-    padding: 0px;
+    padding: 0;
     margin-right: 2px;
   }
 
-  .menuButtonMain{
+  .menuButtonMain {
     display: none;
   }
 
-  .navbar{
+  .navbar {
     font-size: 15px;
     color: #fff;
     text-decoration: none;
@@ -711,16 +713,17 @@ input#Name {
     text-align: center;
     align-items: center;
     margin-bottom: 26px;
-    width:60px;
-    height:18px;
+    width: 60px;
+    height: 18px;
   }
-  .navbar1{
+
+  .navbar1 {
     align-items: center;
     margin-top: 12px;
     margin-bottom: -14px;
   }
 
-  .mainSentences{
+  .mainSentences {
     width: 1440px;
     height: 798px;
     background-image: url(images/desk-img1.png);
@@ -729,14 +732,14 @@ input#Name {
     background-repeat: no-repeat;
   }
 
-  .mainSentenceText{
+  .mainSentenceText {
     width: 566px;
     order: 1;
     margin-left: 143px;
     margin-top: -736px;
   }
 
-  .subSentenceText{
+  .subSentenceText {
     width: 566px;
     margin-left: 143px;
     margin-top: 24px;
@@ -745,7 +748,7 @@ input#Name {
     font-size: 32px;
   }
 
-  .littleParagraph{
+  .littleParagraph {
     font-weight: 500;
     font-size: 20px;
     width: 566px;
@@ -755,7 +758,7 @@ input#Name {
     order: 4;
   }
 
-  .connectIcons{
+  .connectIcons {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -771,11 +774,11 @@ input#Name {
     margin-right: 90px;
   }
 
-  .background{
+  .background {
     display: none;
   }
 
-  .SecondPage{
+  .SecondPage {
     margin-top: 732px;
     margin-left: -112px;
   }
@@ -786,14 +789,14 @@ input#Name {
     margin-top: 58px;
   }
 
-  .MyRecentWorksTop{
-    font-family: 'Crete Round', sans-serif;
+  .MyRecentWorksTop {
+    font-family: "Crete Round", sans-serif;
     font-size: 40px;
     margin-right: -64px;
     width: 314px;
   }
 
-  .AboutLine1{
+  .AboutLine1 {
     height: 0;
     margin-top: 242px;
     width: 698px;
@@ -801,11 +804,11 @@ input#Name {
     border: 1px solid #212121;
   }
 
-  .mainimage1{
+  .mainimage1 {
     display: none;
   }
 
-  .mainimage2{
+  .mainimage2 {
     display: flex;
     margin-top: 55px;
     margin-left: 528px;
@@ -814,52 +817,55 @@ input#Name {
     width: 640px;
   }
 
-  .rightSection{
+  .rightSection {
     width: 203px;
     height: 426px;
     margin-left: 1105px;
     margin-top: -425px;
   }
 
-  .multiPostStories{
+  .multiPostStories {
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 80px;
-    margin-right: 0px;
+    margin-right: 0;
     height: -40px;
     width: 448px;
     font-size: 36px;
   }
-  .pageInformation{
+
+  .pageInformation {
     display: flex;
     margin-top: 40px;
     margin-left: 82px;
-    margin-right: 0px;
+    margin-right: 0;
     height: 89px;
     width: 448px;
     font-size: 19px;
   }
-  .techStacks{
+
+  .techStacks {
     display: flex;
     margin-top: 48px;
     margin-left: 42px;
-    margin-right: 0px;
-    height: 0px;
-    width: 0px;
-    font-size: 0px;
+    margin-right: 0;
+    height: 0;
+    width: 0;
+    font-size: 0;
   }
-  .firstProjectButton{
+
+  .firstProjectButton {
     display: flex;
     margin-top: 77px;
     margin-left: 80px;
-    margin-right: 0px;
+    margin-right: 0;
     height: 55px;
     width: 124px;
     font-size: 17px;
     align-items: center;
   }
 
-  .ThirdPage{
+  .ThirdPage {
     display: grid;
     grid-template-columns: repeat(3, 352px);
     grid-template-rows: repeat(2, 404px);
@@ -874,7 +880,7 @@ input#Name {
     margin-left: 828px;
   }
 
-  .Screen1D{
+  .Screen1D {
     background-image: url(1D.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -884,33 +890,38 @@ input#Name {
     width: 327px;
     margin-left: 5px;
   }
-  
-  .screen1{
+
+  .screen1 {
     display: grid;
   }
-  .PrintingData{
+
+  .PrintingData {
     display: none;
   }
-  .textSegment{
+
+  .textSegment {
     display: none;
   }
-  .builtWith1{
+
+  .builtWith1 {
     display: none;
   }
-  .secondProjectButton{
+
+  .secondProjectButton {
     margin-top: 365px;
   }
 
-  .Screen2D{
+  .Screen2D {
     background-image: url(2D.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     height: 387px;
     width: 327px;
     margin-left: 5px;
   }
-  .PrintingData2-5D{
+
+  .PrintingData2-5D {
     display: flex;
     list-style: none;
     width: 295px;
@@ -921,11 +932,12 @@ input#Name {
     line-height: 44px;
     font-size: 30px;
     font-style: normal;
-    font-family: 'create Round', sans-serif;
+    font-family: "create Round", sans-serif;
     color: #fff;
   }
-  .textSegment2-5D{
-    font-family: 'poppins', sans-serif;
+
+  .textSegment2-5D {
+    font-family: "poppins", sans-serif;
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
@@ -937,20 +949,21 @@ input#Name {
     padding-left: 13px;
   }
 
-  .builtWith{
+  .builtWith {
     margin-top: -7px;
   }
 
-  .Screen3D{
+  .Screen3D {
     background-image: url(3D.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     height: 387px;
     width: 327px;
     margin-left: 5px;
   }
-  .PrintingData3-6D{
+
+  .PrintingData3-6D {
     display: flex;
     list-style: none;
     width: 295px;
@@ -961,11 +974,12 @@ input#Name {
     line-height: 44px;
     font-size: 30px;
     font-style: normal;
-    font-family: 'create Round', sans-serif;
+    font-family: "create Round", sans-serif;
     color: #fff;
   }
-  .textSegment3-6D{
-    font-family: 'poppins', sans-serif;
+
+  .textSegment3-6D {
+    font-family: "poppins", sans-serif;
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
@@ -977,17 +991,18 @@ input#Name {
     padding-left: 13px;
   }
 
-  .Screen4D{
+  .Screen4D {
     background-image: url(screen.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     height: 388px;
     background-size: cover;
     width: 327px;
     margin-left: 5px;
   }
-  .PrintingData4{
+
+  .PrintingData4 {
     display: flex;
     list-style: none;
     width: 295px;
@@ -998,11 +1013,12 @@ input#Name {
     line-height: 44px;
     font-size: 30px;
     font-style: normal;
-    font-family: 'create Round', sans-serif;
+    font-family: "create Round", sans-serif;
     color: #fff;
   }
-  .textSegment4{
-    font-family: 'poppins', sans-serif;
+
+  .textSegment4 {
+    font-family: "poppins", sans-serif;
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
@@ -1014,47 +1030,47 @@ input#Name {
     padding-left: 13px;
   }
 
-
-  .Screen5D{
+  .Screen5D {
     background-image: url(2D.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-top: 0px;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
-  }
-  .Screen6D{
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     height: 388px;
     width: 327px;
     margin-left: 5px;
   }
 
-  .secondProjectButtonD{
+  .Screen6D {
+    background-image: url(3D.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0;
+    height: 388px;
+    width: 327px;
+    margin-left: 5px;
+  }
+
+  .secondProjectButtonD {
     display: none;
   }
 
   /* about me page */
-  .AboutMePage{
-      width: 1440px;
-      height: 798px;
-      height: 1195px;
-      display: flex;
+  .AboutMePage {
+    width: 1440px;
+    height: 798px;
+    height: 1195px;
+    display: flex;
   }
 
-  .Header{
+  .Header {
     margin-left: 142px;
   }
 
-  .AboutMeTextSection{
+  .AboutMeTextSection {
     display: none;
   }
 
-  .AboutMeTextSection-D{
+  .AboutMeTextSection-D {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -1064,15 +1080,15 @@ input#Name {
     display: flex;
     width: 566px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
-  .ResumeButton-D{
+  .ResumeButton-D {
     margin-left: 144px;
   }
 
-  .secondBackgroundImage-D{
+  .secondBackgroundImage-D {
     width: 632px;
     height: 373px;
     background-position: center;
@@ -1083,7 +1099,7 @@ input#Name {
     margin-top: 152px;
   }
 
-  .AboutLine2{
+  .AboutLine2 {
     width: 85%;
     top: 640px;
     position: absolute;
@@ -1093,26 +1109,28 @@ input#Name {
     margin-right: 15px;
   }
 
-  .MySkills{
-    margin-left: 0px;
+  .MySkills {
+    margin-left: 0;
     display: flex;
   }
 
-  .containerTech{
+  .containerTech {
     margin-left: 124px;
     display: grid;
     grid-template-columns: repeat(3, 352px);
     text-align: start;
     margin-top: -58px;
   }
+
   .containerTech > :nth-child(3) {
     margin-top: -4px;
   }
+
   .containerTech > :nth-child() {
     margin-top: -3px;
   }
 
-  .form{
+  .form {
     flex-direction: row;
     display: flex;
     width: 100%;
@@ -1122,157 +1140,140 @@ input#Name {
     height: 614px;
   }
 
-  .smallPara{
+  .smallPara {
     text-align: start;
     width: 373px;
     margin-left: -40px;
     align-items: center;
   }
-  
-  .input{
+
+  .input {
     display: flex;
     padding: 0;
     list-style: none;
     flex-direction: column;
-    margin-left: -20px;
+    margin-left: 341px;
     margin-right: -10px;
+    margin-top: -232px;
   }
 
-  /* hiiii */
-  
-.form {
-  display: flex;
-  margin: 70px 0 0 0;
-  align-items: center;
-  flex-direction: column;
-}
+  .mainContent {
+    flex: none;
+    color: #172b4d;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    line-height: 44px;
+    width: 369px;
+    position: absolute;
+    margin: 52px 0 0 0;
+    font-family: "Inter", sans-serif;
+    height: 216px;
+    order: 0;
+    flex-grow: 0;
+  }
 
-.mainContent {
-  flex: none;
-  color: #172b4d;
-  font-weight: 700;
-  text-align: center;
-  font-size: 24px;
-  line-height: 44px;
-  width: 369px;
-  position: absolute;
-  margin: 52px 0 0 0;
-  font-family: "Inter", sans-serif;
-  height: 216px;
-  order: 0;
-  flex-grow: 0;
-}
+  .Email {
+    margin-top: 25px;
+  }
 
-.input {
-  display: flex;
-  padding: 0;
-  list-style: none;
-  flex-direction: column;
-  margin-left: 341px;
-  margin-right: -10px;
-  margin-top: -232px;
-}
+  .gaps1 {
+    margin: 4px -19px 0;
+    width: 315px;
+    border: 1px solid #dbd8d7;
+  }
 
-.Email {
-  margin-top: 25px;
-}
+  .gaps2 {
+    margin: -3px -17px 0;
+    width: 310px;
+    border: 1px solid #dbd8d7;
+  }
 
-.gaps1 {
-  margin: 4px -19px 0;
-  width: 315px;
-  border: 1px solid #dbd8d7;
-}
+  .newInputName {
+    display: none;
+  }
 
-.gaps2 {
-  margin: -3px -17px 0;
-  width: 310px;
-  border: 1px solid #dbd8d7;
-}
+  .newInputName01 {
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    padding-right: 100px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    margin-left: 69px;
+    margin-right: -42px;
+  }
 
-.newInputName{
-  display: none;
-}
+  .newInputName02 {
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    padding-right: 100px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    margin-left: 408px;
+    margin-right: -42px;
+  }
 
-.newInputName01 {
-  font-weight: 400;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  flex: 1 auto;
-  padding-right: 100px;
-  border: none;
-  font-family: "Inter", sans-serif;
-  margin-left: 69px;
-  margin-right: -42px;
-}
-.newInputName02 {
-  font-weight: 400;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  flex: 1 auto;
-  padding-right: 100px;
-  border: none;
-  font-family: "Inter", sans-serif;
-  margin-left: 408px;
-  margin-right: -42px;
-}
+  input#Name {
+    border: none;
+  }
 
-input#Name {
-  border: none;
-}
+  .newInputEmail {
+    margin: 16px 150px 29px 68px;
+  }
 
-.newInputEmail {
-  margin: 16px 150px 29px 68px;
-}
+  #Email {
+    border: none;
+  }
 
-#Email {
-  border: none;
-}
+  .textArea1 {
+    display: flex;
+    background-color: #fbf8f7;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #3c3a39;
+    text-align: left;
+    padding: 12px;
+    height: 90px;
+    margin: 56px;
+    margin-top: -65px;
+    width: 622px;
+  }
 
-.textArea1 {
-  display: flex;
-  background-color: #fbf8f7;
-  border: none;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #3c3a39;
-  text-align: left;
-  padding: 12px;
-  height: 90px;
-  margin: 56px;
-  margin-top: -65px;
-  width: 622px;
-}
+  .button1 {
+    width: 136px;
+    height: 56px;
+    margin-top: -36px;
+    margin-left: 57px;
+    background-color: #ff6b00;
+  }
 
-.button1 {
-  width: 136px;
-  height: 56px;
-  margin-top: -36px;
-  margin-left: 57px;
-  background-color: #ff6b00;
-}
+  .gaps3 {
+    margin-top: -198px;
+    margin-left: 564px;
+    width: 1256px;
+    border: 1px solid #dbd8d7;
+  }
 
-.gaps3{
-  margin-top: -198px;
-  margin-left: 564px;
-  width: 1256px;
-  border: 1px solid #dbd8d7;
-}
-
-.connectIcons22{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  gap: 28px;
-  list-style: none;
-  margin-left: 568px;
-  margin-top: 28px;
-  width: 222px;
-  height: 40px;
-}
+  .connectIcons22 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 28px;
+    list-style: none;
+    margin-left: 568px;
+    margin-top: 28px;
+    width: 222px;
+    height: 40px;
+  }
 }
