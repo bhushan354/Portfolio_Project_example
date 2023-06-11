@@ -5,7 +5,8 @@
   .mainimage2 {
     display: none;
   }
-    .background-D {
+
+  .background-D {
     display: none;
   }
 
@@ -36,10 +37,12 @@
   .textSegment4 {
     display: none;
   }
+
   .AboutMeTextSection-D {
-  display: none;
+    display: none;
   }
-  .secondBackgroundImage-D{
+
+  .secondBackgroundImage-D {
     display: none;
   }
 }
@@ -501,7 +504,7 @@
 .secondBackgroundImage {
   background: url("Frame.png");
   height: 260px;
-  margin-left: 0px;
+  margin-left: 0;
   width: 160px;
   background-repeat: no-repeat;
   position: absolute;
@@ -1132,7 +1135,8 @@ input#Name {
     margin-top: 28px;
     margin-left: 808px;
   }
-  .secondBackgroundImage{
+
+  .secondBackgroundImage {
     display: none;
   }
 
