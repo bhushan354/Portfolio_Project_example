@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
-* {
-  margin: opx;
-  padding: opx;
-}
+/////////////////////////////
 
 .container {
   display: flex;
@@ -195,13 +192,7 @@
   color: #091e42;
   margin-left: 27px;
 }
-
-.techStacks {
-  display: flex;
-  gap: 12px;
-  list-style: none;
-  margin-left: -13px;
-}
+////////////////////////////////////
 
 .stackButton {
   font-weight: 400;
