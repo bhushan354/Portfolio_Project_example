@@ -700,7 +700,7 @@ input#Name {
 
 @media (min-width: 768px) {
   .background-D {
-    margin-left: 776px;
+    margin-left: 912px;
   }
 
   #upperSection {
@@ -732,7 +732,7 @@ input#Name {
   .container {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 1574px;
     height: 72px;
     padding: 0;
     margin-right: 2px;
@@ -761,7 +761,7 @@ input#Name {
   }
 
   .mainSentences {
-    width: 1440px;
+    width: 1574px;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-position: right;
@@ -1092,7 +1092,7 @@ input#Name {
 
   /* about me page */
   .AboutMePage {
-    width: 1440px;
+    width: 1574px;
     height: 798px;
     height: 1195px;
     display: flex;
@@ -1156,7 +1156,7 @@ input#Name {
   }
 
   .containerTech {
-    margin-left: 124px;
+    margin-left: 296px;
     display: grid;
     grid-template-columns: repeat(3, 352px);
     text-align: start;
