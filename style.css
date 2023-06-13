@@ -700,7 +700,13 @@ input#Name {
 
 @media (min-width: 768px) {
   .background-D {
-    margin-left: 912px;
+    position: absolute;
+    bottom: 675px;
+    right: 511px;
+    width: 150px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #upperSection {
@@ -732,7 +738,7 @@ input#Name {
   .container {
     display: flex;
     justify-content: space-between;
-    width: 1574px;
+    width: 100%;
     height: 72px;
     padding: 0;
     margin-right: 2px;
@@ -761,7 +767,7 @@ input#Name {
   }
 
   .mainSentences {
-    width: 1574px;
+    width: 100%;
     height: 798px;
     background-image: url(images/desk-img1.png);
     background-position: right;
@@ -773,14 +779,14 @@ input#Name {
     width: 566px;
     order: 1;
     margin-left: 143px;
-    margin-top: -736px;
+    margin-top: 143px;
   }
 
   .subSentenceText {
     width: 566px;
     margin-left: 143px;
     margin-top: 24px;
-    order: 3;
+    order: 2;
     font-weight: 500;
     font-size: 32px;
   }
@@ -792,7 +798,7 @@ input#Name {
     height: 123px;
     margin-left: 143px;
     margin-top: 24px;
-    order: 4;
+    order: 3;
   }
 
   .connectIcons {
@@ -817,6 +823,7 @@ input#Name {
 
   .SecondPage {
     margin-top: 755px;
+    width: 100%;
     margin-left: -420px;
   }
 
@@ -1092,8 +1099,7 @@ input#Name {
 
   /* about me page */
   .AboutMePage {
-    width: 1574px;
-    height: 798px;
+    width: 100%;
     height: 1195px;
     display: flex;
   }
@@ -1125,15 +1131,14 @@ input#Name {
   }
 
   .secondBackgroundImage-D {
-    width: 632px;
-    height: 373px;
-    background-position: center;
+    position: absolute;
+    bottom: 844px;
+    right: 0;
+    width: 581px;
+    height: 350px;
+    background-repeat: no-repeat;
     background-size: cover;
     background-image: url(background-2D.png);
-    position: absolute;
-    top: 5%;
-    margin-top: 28px;
-    margin-left: 808px;
   }
 
   .secondBackgroundImage {
@@ -1151,7 +1156,7 @@ input#Name {
   }
 
   .MySkills {
-    margin-left: 0;
+    margin-left: -60px;
     display: flex;
   }
 
@@ -1175,8 +1180,7 @@ input#Name {
     flex-direction: row;
     display: flex;
     width: 100%;
-    margin-left: 256px;
-    margin-left: 220px;
+    margin-left: 192px;
     margin-top: 15px;
     padding: -22px;
     max-width: 1440px;
