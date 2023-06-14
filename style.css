@@ -195,11 +195,12 @@
   color: #091e42;
   margin-left: 27px;
 }
+
 .techStacks {
   display: flex;
   gap: 12px;
   list-style: none;
-  margin-left: -13px;
+  margin-left: 27px;
 }
 
 .stackButton {
