@@ -550,13 +550,15 @@
 }
 
 .background {
-  position: absolute;
-  bottom: 175px;
-  right: -18px;
-  width: 150px;
-  height: 100px;
+  background: url(background.png);
+  height: 260px;
+  width: 160px;
   background-repeat: no-repeat;
+  position: absolute;
   background-size: cover;
+  background-position: center;
+  right: 0;
+  top: 332px;
 }
 
 .form {
@@ -672,7 +674,7 @@ input#Name {
 }
 
 .line3 {
-  width: 986px;
+  width: 100%;
   margin-top: 591px;
 }
 
@@ -686,25 +688,26 @@ input#Name {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: -42px;
+  margin-left: 122px;
+  width: 146px;
+  height: 64px;
+  align-items: center;
 }
-
-.button1 {
-  width: 136px;
-  height: 56px;
-  margin-top: -36px;
-  margin-left: 140px;
-  background-color: #ff6b00;
+.submit:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
 }
 
 @media (min-width: 768px) {
   .background-D {
+    background-image: url(background-D.png);
     position: absolute;
-    bottom: 675px;
-    right: 511px;
-    width: 150px;
-    height: 100px;
+    bottom: 132px;
+    right: 0;
+    width: 436px;
+    height: 505px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -741,7 +744,7 @@ input#Name {
     width: 100%;
     height: 72px;
     padding: 0;
-    margin-right: 2px;
+    margin: 0;
   }
 
   .menuButtonMain {
@@ -769,7 +772,7 @@ input#Name {
   .mainSentences {
     width: 100%;
     height: 798px;
-    background-image: url(images/desk-img1.png);
+    margin-left: -1px;
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -928,8 +931,8 @@ input#Name {
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
-    margin-top: -22px;
-    height: 387px;
+    margin-top: -1px;
+    height: 388px;
     width: 327px;
     margin-left: 5px;
   }
@@ -951,7 +954,7 @@ input#Name {
   }
 
   .secondProjectButton {
-    margin-top: 365px;
+    margin-top: 344px;
   }
 
   .Screen2D {
@@ -1156,16 +1159,17 @@ input#Name {
   }
 
   .MySkills {
-    margin-left: -60px;
+    margin-left: 245px;
+    width: 60%;
     display: flex;
   }
 
   .containerTech {
-    margin-left: 296px;
+    margin-left: -48px;
     display: grid;
     grid-template-columns: repeat(3, 352px);
     text-align: start;
-    margin-top: -58px;
+    margin-top: 78px;
   }
 
   .containerTech > :nth-child(3) {
@@ -1179,12 +1183,12 @@ input#Name {
   .form {
     flex-direction: row;
     display: flex;
-    width: 100%;
-    margin-left: 192px;
-    margin-top: 15px;
-    padding: -22px;
-    max-width: 1440px;
-    height: 614px;
+    width: 80%;
+    margin-left: 176px;
+    margin-top: -48px;
+    padding: 0;
+    max-width: 1188px;
+    height: 782px;
   }
 
   .smallPara {
@@ -1309,15 +1313,12 @@ input#Name {
   .connectIcons22 {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
-    gap: 28px;
+    gap: 24px;
     list-style: none;
-    width: 435px;
-    height: 13px;
-    position: absolute;
-    bottom: -3935px;
-    left: 474px;
-    right: 0;
+    margin-left: -700px;
+    margin-top: 739px;
+    width: 200px;
+    height: 40px;
   }
 }
