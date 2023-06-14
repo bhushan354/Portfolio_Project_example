@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
   display: flex;
   width: 100%;
@@ -147,6 +148,7 @@
   margin-top: 142px;
   width: 321px;
   height: 35px;
+
   /* right: 2px; */
   margin-left: 28px;
 }
@@ -503,7 +505,7 @@
   position: absolute;
   background-size: cover;
   background-position: center;
-  right: 0px;
+  right: 0;
   top: 370px;
 }
 
@@ -573,7 +575,7 @@ input#Name {
 }
 
 .newInputEmail {
-  margin: 0px 135px 86px 37px;
+  margin: 0 135px 86px 37px;
 }
 
 #Email {
@@ -631,6 +633,7 @@ input#Name {
   margin-top: -24px;
   margin-left: 144px;
 }
+
 .submit:hover {
   background-color: #fff5e1;
   border: #f55800;
