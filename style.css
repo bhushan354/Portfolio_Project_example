@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Roboto:wght@700&display=swap");
 
 * {
-  margin: opx;
-  padding: opx;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 8px;
+  padding: 0;
 }
 
 .myLogo {
@@ -37,11 +37,11 @@
 }
 
 .menuButton {
-  width: 70px;
+  width: 46px;
   height: 16px;
   line-height: 14px;
   margin-left: 28px;
-  margin-right: -22px;
+  margin-right: 0;
   margin-top: 12px;
   margin-bottom: 12px;
   color: #fff;
@@ -60,16 +60,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 0;
+  padding: 0;
   gap: 12px;
-  position: absolute;
   width: 100%;
   height: 595px;
   background-color: black;
 }
 
 .mainSentenceText {
-  width: 327px;
+  width: 276px;
   height: 124px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -90,20 +89,20 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   padding: 12px 24px 0 24px;
-  width: 327px;
+  width: 276px;
   height: 27px;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   align-items: center;
   color: #fff5e1;
-  margin-top: 0;
+  margin-top: 44px;
 }
 
 .littleParagraph {
   font-style: normal;
   font-size: 16px;
-  margin-top: -24px;
+  margin-top: 0;
   font-weight: 400;
   line-height: 24px;
   padding: 0 24px 0 24px;
@@ -117,7 +116,7 @@
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: 0;
+  margin-left: 22px;
   margin-top: 0;
   width: 200px;
   height: 40px;
@@ -125,14 +124,14 @@
 
 /* from here adding new things */
 .SecondPage {
-  margin-top: 520px;
+  margin-top: -64px;
   justify-items: center;
   display: grid;
   grid-template-columns: 100%;
   width: 100%;
   grid-template-rows: 250px repeat(3, auto);
   min-height: 90px;
-  margin-left: -8px;
+  margin-left: -2px;
 }
 
 .MyRecentWorksTop {
@@ -142,13 +141,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
+  align-items: center;
   letter-spacing: 0;
   text-align: left;
   color: #1c1a19;
   margin-top: 142px;
-  width: 327px;
+  width: 321px;
   height: 35px;
-  margin-left: 27px;
+
+  /* right: 2px; */
+  margin-left: 28px;
 }
 
 .AboutLine1 {
@@ -157,7 +159,7 @@
   position: absolute;
   border: 1px solid #212121;
   align-items: center;
-  margin-left: 26px;
+  margin-left: 25px;
 }
 
 .mainImage {
@@ -200,7 +202,10 @@
   display: flex;
   gap: 12px;
   list-style: none;
-  margin-left: -13px;
+  margin-left: 25px;
+  margin-top: 16px;
+  align-items: baseline;
+  height: 60px;
 }
 
 .stackButton {
@@ -227,8 +232,6 @@
   font-size: 17px;
   display: inline-block;
   cursor: pointer;
-
-  /* width: 40%; */
   margin-top: 4px;
   margin-left: 27px;
 }
@@ -249,7 +252,7 @@
   flex-direction: column;
   margin-top: 36px;
   height: 372px;
-  width: 327px;
+  width: 314px;
   margin-left: 5px;
 }
 
@@ -260,7 +263,7 @@
   flex-direction: column;
   margin-top: 68px;
   height: 372px;
-  width: 327px;
+  width: 314px;
   margin-left: 5px;
 }
 
@@ -271,7 +274,7 @@
   flex-direction: column;
   margin-top: 113px;
   height: 372px;
-  width: 327px;
+  width: 314px;
   margin-left: 5px;
 }
 
@@ -282,7 +285,7 @@
   flex-direction: column;
   margin-top: 157px;
   height: 372px;
-  width: 327px;
+  width: 314px;
   margin-left: 5px;
 }
 
@@ -293,7 +296,7 @@
   flex-direction: column;
   margin-top: 202px;
   height: 372px;
-  width: 327px;
+  width: 314px;
   margin-left: 5px;
 }
 
@@ -304,7 +307,7 @@
   flex-direction: column;
   margin-top: 247px;
   height: 372px;
-  width: 327px;
+  width: 314px;
   margin-left: 5px;
 }
 
@@ -366,7 +369,7 @@
   cursor: pointer;
   text-align: center;
   padding: 12px;
-  margin-top: -5px;
+  margin-top: 25px;
   color: #fff;
   border: none;
   background-color: #ff6b00;
@@ -374,8 +377,8 @@
 
 .secondProjectButton:hover {
   background-color: #fff5e1;
+  border: 1px solid #f55800;
   color: #f55800;
-  border: #f55800;
 }
 
 /* about ,me */
@@ -463,7 +466,7 @@
 
 .MySkills {
   margin-top: 286px;
-  margin-left: -65px;
+  margin-left: 0;
   color: #fff;
   text-align: center;
 }
@@ -489,13 +492,15 @@
 }
 
 .background {
-  position: absolute;
-  bottom: 175px;
-  right: -18px;
-  width: 150px;
-  height: 100px;
+  background: url(background.png);
+  height: 260px;
+  width: 160px;
   background-repeat: no-repeat;
+  position: absolute;
   background-size: cover;
+  background-position: center;
+  right: 0;
+  top: 370px;
 }
 
 .form {
@@ -556,6 +561,7 @@
   font-family: "Inter", sans-serif;
   margin-left: 69px;
   margin-right: -42px;
+  margin-top: 12px;
 }
 
 input#Name {
@@ -563,7 +569,7 @@ input#Name {
 }
 
 .newInputEmail {
-  margin: 6px 132px 26px 37px;
+  margin: 0 135px 86px 37px;
 }
 
 #Email {
@@ -595,7 +601,7 @@ input#Name {
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: -23px;
+  margin-left: 0;
   margin-top: 43px;
   width: 200px;
   height: 40px;
@@ -610,13 +616,22 @@ input#Name {
   background-color: #ff6b00;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 54px;
   color: #fff;
   font-size: 17px;
   font-weight: 700;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: -24px;
+  margin-left: 144px;
+}
+
+.submit:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
 }
 
 .button1 {
