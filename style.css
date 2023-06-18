@@ -279,19 +279,22 @@
   margin-top: 4px;
   margin-left: 27px;
 }
+
 .firstProjectButton:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
 }
-.firstProjectButton:active{
-  color: #F4F1F0;
-  background-color: #E05304;
+
+.firstProjectButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
 }
+
 .firstProjectButton:disabled {
-  background-color: #F4F1F0;
+  background-color: #f4f1f0;
   border: none;
-  color: #5B5957;
+  color: #5b5957;
 }
 
 .ThirdPage {
@@ -439,19 +442,22 @@
   border: none;
   background-color: #ff6b00;
 }
+
 .secondProjectButton:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
 }
-.secondProjectButton:active{
-  color: #F4F1F0;
-  background-color: #E05304;
+
+.secondProjectButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
 }
+
 .secondProjectButton:disabled {
-  background-color: #F4F1F0;
+  background-color: #f4f1f0;
   border: none;
-  color: #5B5957;
+  color: #5b5957;
 }
 
 /* about ,me */
@@ -510,19 +516,22 @@
   margin-top: 24px;
   margin-left: 24px;
 }
+
 .ResumeButton:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
 }
-.ResumeButton:active{
-  color: #F4F1F0;
-  background-color: #E05304;
+
+.ResumeButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
 }
+
 .ResumeButton:disabled {
-  background-color: #F4F1F0;
+  background-color: #f4f1f0;
   border: none;
-  color: #5B5957;
+  color: #5b5957;
 }
 
 .secondBackgroundImage {
@@ -718,19 +727,22 @@ input#Name {
   height: 64px;
   align-items: center;
 }
+
 .submitButton:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
 }
-.submitButton:active{
-  color: #F4F1F0;
-  background-color: #E05304;
+
+.submitButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
 }
+
 .submitButton:disabled {
-  background-color: #F4F1F0;
+  background-color: #f4f1f0;
   border: none;
-  color: #5B5957;
+  color: #5b5957;
 }
 
 @media (min-width: 768px) {
