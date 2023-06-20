@@ -943,7 +943,7 @@ input#Name {
 
   .multiPostStories {
     display: flex;
-    margin-top: 0;
+    margin-top: 22px;
     margin-left: 56%;
     margin-right: 0;
     height: -40px;
@@ -1274,16 +1274,20 @@ input#Name {
     height: 286px;
     width: 100%;
     margin-top: -24%;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 2px;
   }
 
   .input {
-    display: flex;
-    padding: 0;
-    list-style: none;
-    flex-direction: column;
-    margin-right: 186px;
-    margin-left: 354px;
-    margin-top: 2px;
+    width: 54%;
+    margin-top: -216px;
+    margin-left: 38%;
   }
 
   .mainContent {
@@ -1297,7 +1301,7 @@ input#Name {
     position: absolute;
     margin: 0 0 0 0;
     font-family: "Inter", sans-serif;
-    height: 216px;
+    height: 300px;
     order: 0;
     flex-grow: 0;
   }
@@ -1382,14 +1386,15 @@ input#Name {
     margin-top: 54px;
     width: 644px;
   }
+  #textArea1{
+    border: none;
+    width: 548px;
+    margin-left: -12px;
+  }
 
   #Email {
     border: none;
     width: 538px;
-  }
-
-  .textArea1 {
- 
   }
 
   .button1 {
@@ -1400,14 +1405,25 @@ input#Name {
     background-color: #ff6b00;
   }
 
+  .line3D{
+    margin-top: 526px;
+    height: 10pc;
+    width: 80%;
+  }
+  .line3 {
+    width: 100%;
+    margin-top: 18px;
+  }
+
   .connectIcons22 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     gap: 24px;
     list-style: none;
-    margin-left: -720px;
-    margin-top: 739px;
+    margin-left: 0px;
+    margin-top: 20px;
     width: 200px;
     height: 40px;
   }
