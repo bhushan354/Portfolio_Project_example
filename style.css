@@ -48,6 +48,7 @@
 }
 
 * {
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -107,7 +108,8 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0 0;
-  gap: 12px;
+  gap: 2%;
+  margin-left: -3px;
   position: absolute;
   width: 100%;
   height: 595px;
@@ -155,6 +157,7 @@
   padding: 0 24px 0 24px;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  width: 72%;
 }
 
 .connectIcons {
@@ -700,9 +703,10 @@ input#Name {
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: -23px;
+  margin-left: 0px;
   margin-top: 43px;
-  width: 200px;
+  width: 100%;
+  justify-content: center;
   height: 40px;
 }
 
@@ -751,8 +755,8 @@ input#Name {
     position: absolute;
     bottom: 132px;
     right: 0;
-    width: 436px;
-    height: 505px;
+    width: 40%;
+    height: 512px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -760,7 +764,8 @@ input#Name {
   #upperSection {
     display: flex;
     justify-content: end;
-    margin-right: 190px;
+    margin-right: 42px;
+    margin-left: 88px;
     align-items: baseline;
     flex: 1;
   }
@@ -831,22 +836,32 @@ input#Name {
   }
 
   .subSentenceText {
-    width: 566px;
-    margin-left: 143px;
-    margin-top: 24px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    width: 55%;
+    padding: 6px 24px 0 142px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    color: #fff5e1;
+    margin-top: 55px;
     order: 2;
-    font-weight: 500;
-    font-size: 32px;
   }
 
   .littleParagraph {
-    font-weight: 500;
-    font-size: 20px;
-    width: 566px;
-    height: 123px;
-    margin-left: 143px;
-    margin-top: 24px;
+    font-style: normal;
+    font-size: 16px;
     order: 3;
+    font-weight: 400;
+    line-height: 24px;
+    width: 55%;
+    padding: 6px 24px 0 142px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-top: 14px;
   }
 
   .connectIcons {
@@ -872,28 +887,38 @@ input#Name {
   .SecondPage {
     margin-top: 755px;
     width: 100%;
-    margin-left: -420px;
+    margin-left: 0px;
   }
 
   .myProjects {
     display: flex;
-    margin-left: 30.5px;
-    margin-top: 58px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 44px;
+    width: 100%;
   }
 
   .MyRecentWorksTop {
     font-family: "Crete Round", sans-serif;
     font-size: 40px;
-    margin-right: -64px;
-    width: 314px;
+    margin-right: 0px;
+    width: 100%;
+    margin-left: 0PX;
   }
 
   .AboutLine1 {
     height: 0;
     margin-top: 242px;
-    width: 698px;
+    width: 606px;
     margin-left: 366px;
     border: 1px solid #212121;
+  }
+
+  .multiPostPage{
+    margin-left: 0px;
+    width: 100%;
   }
 
   .mainimage1 {
@@ -903,23 +928,23 @@ input#Name {
   .mainimage2 {
     display: flex;
     margin-top: 55px;
-    margin-left: 528px;
-    margin-right: -78px;
-    height: 436px;
-    width: 640px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 412px;
+    width: 574px;
   }
 
   .rightSection {
-    width: 203px;
+    width: 100%;
     height: 426px;
-    margin-left: 1105px;
+    margin-left: 0px;
     margin-top: -425px;
   }
 
   .multiPostStories {
     display: flex;
     margin-top: 0;
-    margin-left: 80px;
+    margin-left: 56%;
     margin-right: 0;
     height: -40px;
     width: 448px;
@@ -929,7 +954,7 @@ input#Name {
   .pageInformation {
     display: flex;
     margin-top: 40px;
-    margin-left: 82px;
+    margin-left: 56%;
     margin-right: 0;
     height: 89px;
     width: 448px;
@@ -939,17 +964,17 @@ input#Name {
   .techStacks {
     display: flex;
     margin-top: 48px;
-    margin-left: 82px;
+    margin-left: 56%;
     margin-right: 0;
-    height: 0;
-    width: 0;
+    height: 32px;
+    width: 43px;
     font-size: 0;
   }
 
   .firstProjectButton {
     display: flex;
     margin-top: 77px;
-    margin-left: 80px;
+    margin-left: 56%;
     margin-right: 0;
     height: 55px;
     width: 124px;
@@ -965,10 +990,10 @@ input#Name {
     width: 100%;
     max-width: 1440px;
     gap: 17px -4px;
-    height: 554px;
+    height: 808px;
     justify-content: center;
-    margin-top: 28px;
-    margin-left: 828px;
+    margin-top: 16px;
+    margin-left: 0;
   }
 
   .Screen1D {
@@ -1148,7 +1173,8 @@ input#Name {
   /* about me page */
   .AboutMePage {
     width: 100%;
-    height: 1195px;
+    margin-top: 6%;
+    height: 950px;
     display: flex;
   }
 
@@ -1180,10 +1206,10 @@ input#Name {
 
   .secondBackgroundImage-D {
     position: absolute;
-    bottom: 844px;
+    bottom: 60%;
     right: 0;
-    width: 581px;
-    height: 350px;
+    width: 466px;
+    height: 25%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(background-2D.png);
@@ -1204,16 +1230,18 @@ input#Name {
   }
 
   .MySkills {
-    margin-left: 245px;
-    width: 60%;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-around;
     display: flex;
   }
 
   .containerTech {
-    margin-left: -48px;
     display: grid;
     grid-template-columns: repeat(3, 352px);
-    text-align: start;
+    text-align: center;
     margin-top: 78px;
   }
 
@@ -1226,21 +1254,26 @@ input#Name {
   }
 
   .form {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
-    width: 80%;
-    margin-left: 176px;
-    margin-top: -48px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: -162px;
     padding: 0;
-    max-width: 1188px;
+    justify-content: center;
     height: 782px;
   }
 
   .smallPara {
     text-align: start;
     width: 373px;
-    margin-left: -40px;
-    align-items: center;
+    margin-left: 2%;
+  }
+
+  .firstForm{
+    height: 286px;
+    width: 100%;
+    margin-top: -24%;
   }
 
   .input {
@@ -1248,9 +1281,9 @@ input#Name {
     padding: 0;
     list-style: none;
     flex-direction: column;
-    margin-left: 341px;
-    margin-right: -10px;
-    margin-top: -204px;
+    margin-right: 186px;
+    margin-left: 354px;
+    margin-top: 2px;
   }
 
   .mainContent {
@@ -1260,9 +1293,9 @@ input#Name {
     text-align: center;
     font-size: 24px;
     line-height: 44px;
-    width: 369px;
+    width: 100%;
     position: absolute;
-    margin: 52px 0 0 0;
+    margin: 0 0 0 0;
     font-family: "Inter", sans-serif;
     height: 216px;
     order: 0;
@@ -1320,15 +1353,18 @@ input#Name {
   }
 
   .newInputEmail {
-    margin: 16px 150px 29px 68px;
-  }
-
-  #Email {
+    margin: 28px 150px 29px 68px;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    padding-right: 100px;
     border: none;
-    width: 538px;
+    font-family: "Inter", sans-serif;
   }
 
-  .textArea1 {
+  .textArea{
     display: flex;
     background-color: #fbf8f7;
     border: none;
@@ -1343,8 +1379,17 @@ input#Name {
     padding: 12px;
     height: 90px;
     margin: 56px;
-    margin-top: -2px;
+    margin-top: 54px;
     width: 644px;
+  }
+
+  #Email {
+    border: none;
+    width: 538px;
+  }
+
+  .textArea1 {
+ 
   }
 
   .button1 {
