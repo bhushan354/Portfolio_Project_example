@@ -1486,5 +1486,16 @@ input#Name {
     margin-top: 18px;
   }
   
-  //
+  .connectIcons22 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+    margin-left: 46%;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+  }
 }
