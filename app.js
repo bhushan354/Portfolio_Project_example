@@ -15,5 +15,3 @@ function open() {
   
   hamburgerOpenConst.addEventListener('click', open);
   hamburgerCloseConst.addEventListener('click', close);
-  
-
