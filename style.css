@@ -269,7 +269,7 @@
 
 .MyRecentWorksTop {
   display: flex;
-  font-size: 36px;
+  font-size: 32px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -605,20 +605,20 @@
 }
 
 .ResumeButton {
-  width: 192px;
-  height: 66px;
+  width: 124px;
+  height: 55px;
   font-family: "Inter", sans-serif;
   background-color: #ff6b00;
   border: none;
   color: #fff;
-  padding: 12px;
+  padding: 0;
   text-align: center;
   display: inline-block;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 14px;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-top: 24px;
+  margin-top: 52px;
   margin-left: 24px;
 }
 
