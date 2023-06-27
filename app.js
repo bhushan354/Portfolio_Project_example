@@ -14,11 +14,11 @@ function closeMenu() {
 
 function handlePageLinkClick() {
   closeMenu();
-  
+
   const targetSectionId = this.getAttribute('href');
-  
+
   const targetSection = document.querySelector(targetSectionId);
-  
+
   targetSection.scrollIntoView({ behavior: 'smooth' });
 }
 
