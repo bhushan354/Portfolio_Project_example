@@ -48,6 +48,7 @@
 }
 
 * {
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -121,10 +122,12 @@
 }
 
 .hamburgerOpen {
+  margin-right: 0px;
   position: relative;
 }
 
 .hamburgerOpen img {
+  margin-right: 32px;
   width: 18px;
   height: 12px;
 }
@@ -171,10 +174,15 @@
   padding: 0 0;
   gap: 2%;
   margin-left: 0;
-  position: absolute;
+  margin-bottom: 20px;
+  /* position: absolute; */ /* Remove absolute positioning */
   width: 100%;
   height: 595px;
   background-color: black;
+}
+
+.section2{
+  height: 3326px;
 }
 
 .mainSentenceText {
@@ -235,14 +243,14 @@
 
 /* from here adding many new things */
 .SecondPage {
-  margin-top: 520px;
+  margin-top: 0;
   justify-items: center;
   display: grid;
   grid-template-columns: 100%;
   width: 100%;
   grid-template-rows: 250px repeat(3, auto);
   min-height: 90px;
-  margin-left: -8px;
+  margin-left: 0;
 }
 
 .myProjects {
@@ -251,103 +259,119 @@
   display: flex;
 }
 
+.multiPostPage {
+  margin-left: 0;
+  width: 100%;
+}
+
 .MyRecentWorksTop {
   display: flex;
-  font-size: 40px;
+  font-size: 36px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
   letter-spacing: 0;
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   color: #1c1a19;
-  margin-top: 142px;
-  width: 327px;
-  height: 35px;
-  margin-left: 27px;
+  margin-top: 94px;
+  width: 100%;
+  height: 50px;
+  margin-left: 0;
 }
 
 .AboutLine1 {
-  width: 327px;
-  top: 814px;
+  width: 100%;
+  top: 830px;
   position: absolute;
   border: 1px solid #212121;
   align-items: center;
-  margin-left: 26px;
+  margin-left: 0;
 }
 
 .mainimage1 {
   display: inline;
-  width: 327px;
+  width: 100%;
   height: 237px;
-  margin-left: 27px;
-  margin-top: 5px;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .multiPostStories {
   display: flex;
   align-items: center;
+  text-align: center;
   font-family: "crete Round", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  width: 327px;
+  width: 100%;
   height: 36px;
+  justify-content: center;
   color: #091e42;
   margin-top: 14px;
-  margin-left: 27px;
+  margin-left: 0;
   margin-bottom: 0;
 }
 
 .pageInformation {
   font-family: "poppins", sans-serif;
   font-style: normal;
+  display: flex;
   font-weight: 400;
+  text-align: center;
+  justify-content: center;
   font-size: 18px;
-  width: 327px;
-  height: 147px;
+  width: 100%;
+  height: 188px;
   line-height: 24px;
   margin-top: 12px;
   color: #091e42;
-  margin-left: 27px;
+  margin-left: 0;
 }
 
 .techStacks {
   margin-top: 18px;
   display: flex;
   gap: 12px;
+  justify-content: center;
   list-style: none;
-  margin-left: 28px;
+  width: 100%;
+  margin-left: 0;
 }
 
 .stackButton {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  width: 60px;
+  height: 34px;
   background-color: #fff;
   color: #091e42;
   border: 2px solid #8993a4;
-  padding: 10px 12px;
-  margin-top: 12px;
+  padding: 0;
+  margin-top: 0;
 }
 
 .firstProjectButton {
   background-color: #ff6b00;
   border: none;
   color: #fff;
-  padding: 12px;
+  padding: 0;
   text-align: center;
+  justify-content: normal;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   display: inline-block;
   cursor: pointer;
-
-  /* width: 40%; */
+  width: 122px;
+  height: 62px;
   margin-top: 4px;
-  margin-left: 27px;
+  margin-left: 0;
 }
 
 .firstProjectButton:hover {
@@ -371,9 +395,8 @@
   display: grid;
   justify-items: center;
   grid-template-rows: repeat(6, 370px);
-  grid-template-columns: 100px;
-  width: 179px;
-  margin-left: 94px;
+  grid-template-columns: 100%;
+  width: 100%;
 }
 
 .Screen1 {
@@ -381,10 +404,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 36px;
+  margin-top: 14px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen2 {
@@ -392,10 +415,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 68px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen3 {
@@ -403,10 +426,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 113px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen4 {
@@ -414,10 +437,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 157px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen5 {
@@ -425,10 +448,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 202px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen6 {
@@ -436,10 +459,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 247px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .PrintingData {
@@ -545,7 +568,7 @@
 }
 
 .Header {
-  width: 100%;
+  width: 90%;
   height: 79px;
   color: #ff6b00;
   font-family: "Crete Round", sans-serif;
@@ -679,13 +702,17 @@
   text-align: center;
   font-size: 24px;
   line-height: 44px;
-  width: 369px;
+  width: 100%;
   position: absolute;
   margin: 30px 0 0 0;
   font-family: "Inter", sans-serif;
-  height: 216px;
+  height: 260px;
   order: 0;
   flex-grow: 0;
+}
+
+.smallPara{
+  width: 100%;
 }
 
 .input {
@@ -693,8 +720,9 @@
   padding: 0;
   list-style: none;
   flex-direction: column;
-  margin-left: -20px;
-  margin-right: -10px;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .Email {
@@ -702,14 +730,14 @@
 }
 
 .gaps1 {
-  margin: 4px -19px 0;
-  width: 315px;
+  margin: 0;
+  width: 100%;
   border: 1px solid #dbd8d7;
 }
 
 .gaps2 {
-  margin: -4px 13px 0;
-  width: 315px;
+  margin: 0;
+  width: 100%;
   border: 1px solid #dbd8d7;
 }
 
@@ -718,11 +746,12 @@
   display: flex;
   flex-direction: column;
   flex: 1 auto;
-  padding-right: 100px;
+  padding-right: 0;
   border: none;
+  width: 100%;
   font-family: "Inter", sans-serif;
-  margin-left: 69px;
-  margin-right: -42px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .newInputName01 {
@@ -738,11 +767,26 @@ input#Name {
 }
 
 .newInputEmail {
-  margin: 6px 132px 26px 37px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  padding-right: 0;
+  border: none;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 8px;
 }
 
 #Email {
   border: none;
+}
+
+.textArea{
+  margin-top: 6px;
+  width: 100%;
 }
 
 .textArea1 {
@@ -753,15 +797,15 @@ input#Name {
   font-size: 15px;
   font-style: italic;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0;
   color: #3c3a39;
   text-align: left;
-  padding: 12px;
+  padding: 0;
   height: 87px;
-  margin: 56px;
-  margin-top: 2px;
-  width: 276px;
+  margin: 0;
+  margin-top: 0px;
+  width: 100%;
 }
 
 .connectIcons2 {
@@ -792,9 +836,9 @@ input#Name {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  margin-top: 0;
-  margin-left: 122px;
-  width: 146px;
+  margin-top: 10px;
+  margin-left: 0;
+  width: 100%;
   height: 64px;
   align-items: center;
 }
