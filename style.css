@@ -100,6 +100,70 @@
   flex-grow: 0;
 }
 
+.menuPage {
+  display: none;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3c3a39;
+  z-index: 9999;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: inherit;
+  transition: top 0.3s ease-in-out;
+}
+
+.menuPage li {
+  border-bottom: 2px solid #6f6c6b;
+}
+
+.hamburgerOpen {
+  margin-right: 0;
+  position: relative;
+}
+
+.hamburgerOpen img {
+  margin-right: 32px;
+  width: 18px;
+  height: 12px;
+}
+
+.hamburgerClose {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.hamburgerClose img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: 20px;
+}
+
+.elements {
+  margin-top: -334px;
+}
+
+.pageLink {
+  display: block;
+  padding: 20px;
+  font-family: " inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff5e1;
+}
+
+.pageLink:hover {
+  background-color: #3c3a39;
+}
+
 .mainSentences {
   background-repeat: no-repeat;
   background-size: initial;
@@ -107,54 +171,64 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0 0;
-  gap: 12px;
-  position: absolute;
+  gap: 2%;
+  margin-left: 0;
+  margin-bottom: 20px;
+
+  /* position: absolute; */
+
+  /* Remove absolute positioning */
   width: 100%;
   height: 595px;
   background-color: black;
 }
 
+.section2 {
+  height: 3268px;
+}
+
 .mainSentenceText {
-  width: 327px;
-  height: 124px;
+  width: 80%;
+  height: 192px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  margin-top: 0;
-  font-size: 56px;
+  margin-top: 52px;
+  font-size: 46px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding: 100px 24px 0 24px;
+  padding: 0 24px 0 24px;
 }
 
 .subSentenceText {
   display: flex;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  padding: 12px 24px 0 24px;
-  width: 327px;
+  padding: 0 24px 0 24px;
+  width: 80%;
   height: 27px;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   align-items: center;
   color: #fff5e1;
-  margin-top: 55px;
+  margin-top: 0;
 }
 
 .littleParagraph {
   font-style: normal;
   font-size: 16px;
-  margin-top: 28px;
+  margin-top: 14px;
   font-weight: 400;
   line-height: 24px;
   padding: 0 24px 0 24px;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  width: 72%;
 }
 
 .connectIcons {
@@ -171,75 +245,92 @@
 
 /* from here adding many new things */
 .SecondPage {
-  margin-top: 520px;
+  margin-top: 0;
   justify-items: center;
   display: grid;
   grid-template-columns: 100%;
   width: 100%;
   grid-template-rows: 250px repeat(3, auto);
   min-height: 90px;
-  margin-left: -8px;
+  margin-left: 0;
+}
+
+.myProjects {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.multiPostPage {
+  margin-left: 0;
+  width: 100%;
 }
 
 .MyRecentWorksTop {
   display: flex;
-  font-size: 40px;
+  font-size: 32px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
   letter-spacing: 0;
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   color: #1c1a19;
-  margin-top: 142px;
-  width: 327px;
-  height: 35px;
-  margin-left: 27px;
+  margin-top: 94px;
+  width: 100%;
+  height: 50px;
+  margin-left: 0;
 }
 
 .AboutLine1 {
-  width: 327px;
-  top: 814px;
+  width: 100%;
+  top: 830px;
   position: absolute;
   border: 1px solid #212121;
   align-items: center;
-  margin-left: 26px;
+  margin-left: 0;
 }
 
 .mainimage1 {
   display: inline;
-  width: 327px;
+  width: 100%;
   height: 237px;
-  margin-left: 27px;
-  margin-top: 5px;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .multiPostStories {
   display: flex;
   align-items: center;
+  text-align: center;
   font-family: "crete Round", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  width: 327px;
+  width: 100%;
   height: 36px;
+  justify-content: center;
   color: #091e42;
   margin-top: 14px;
-  margin-left: 27px;
+  margin-left: 0;
   margin-bottom: 0;
 }
 
 .pageInformation {
   font-family: "poppins", sans-serif;
   font-style: normal;
+  display: flex;
   font-weight: 400;
+  text-align: left;
+  justify-content: center;
   font-size: 18px;
-  width: 327px;
-  height: 147px;
+  width: 100%;
+  height: 188px;
   line-height: 24px;
   margin-top: 12px;
   color: #091e42;
-  margin-left: 27px;
+  margin-left: 0;
 }
 
 .techStacks {
@@ -247,123 +338,153 @@
   display: flex;
   gap: 12px;
   list-style: none;
-  margin-left: 28px;
+  width: 100%;
+  margin-left: 0;
 }
 
 .stackButton {
   font-weight: 400;
-  font-size: 15px;
-  text-align: centre;
+  font-size: 12px;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
+  width: 60px;
+  height: 34px;
   background-color: #fff;
   color: #091e42;
   border: 2px solid #8993a4;
-  padding: 10px 12px;
-  margin-top: 12px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.projectButton {
+  display: flex;
 }
 
 .firstProjectButton {
   background-color: #ff6b00;
   border: none;
   color: #fff;
-  padding: 12px;
+  padding: 0;
   text-align: center;
+  justify-content: normal;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   display: inline-block;
   cursor: pointer;
-
-  /* width: 40%; */
+  width: 122px;
+  height: 62px;
   margin-top: 4px;
-  margin-left: 27px;
+  margin-left: 0;
+}
+
+.firstProjectButton:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.firstProjectButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.firstProjectButton:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
 .ThirdPage {
   display: grid;
   justify-items: center;
-  grid-template-rows: repeat(6, 370px);
-  grid-template-columns: 100px;
-  width: 179px;
-  margin-left: 94px;
+  grid-template-rows: repeat(6, 392px);
+  grid-template-columns: 100%;
+  width: 100%;
 }
 
 .Screen1 {
   background-image: url(screen.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 36px;
+  margin-top: 14px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen2 {
   background-image: url(screen.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 68px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen3 {
   background-image: url(screen.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 113px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen4 {
   background-image: url(screen.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 157px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen5 {
   background-image: url(screen.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 202px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .Screen6 {
   background-image: url(screen.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 247px;
+  margin-top: 16px;
   height: 372px;
-  width: 327px;
-  margin-left: 5px;
+  width: 95%;
+  margin-left: 0;
 }
 
 .PrintingData {
   display: flex;
   list-style: none;
-  width: 295px;
-  height: 81px;
-  margin-top: 40px;
-  padding-left: 13px;
-  padding-top: 30px;
-  line-height: 44px;
+  width: 100%;
+  height: 88px;
+  margin-top: 58px;
+  padding-left: 0;
+  padding-top: 0;
+  line-height: 47px;
   font-size: 32px;
   font-style: normal;
   font-family: "create Round", sans-serif;
@@ -373,14 +494,14 @@
 .textSegment {
   font-family: "poppins", sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: #fff;
-  width: 300px;
+  width: 100%;
   height: 100px;
   line-height: 24px;
   margin-top: 12px;
-  padding-left: 13px;
+  padding-left: 0;
 }
 
 .builtWith {
@@ -398,10 +519,10 @@
 }
 
 .buttonOfTechStack {
-  text-align: centre;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 1rem;
   margin-right: 12px;
   margin-top: 2px;
   font-weight: 400;
@@ -420,7 +541,7 @@
   cursor: pointer;
   text-align: center;
   padding: 12px;
-  margin-top: 24px;
+  margin-top: 28px;
   color: #fff;
   border: none;
   background-color: #ff6b00;
@@ -429,7 +550,18 @@
 .secondProjectButton:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border: #f55800;
+  border: 1px solid #f55800;
+}
+
+.secondProjectButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.secondProjectButton:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
 /* about ,me */
@@ -441,14 +573,14 @@
   flex-direction: column;
   padding-top: 120px;
   position: relative;
-  margin-top: 375px;
+  margin-top: 0;
   background-repeat: no-repeat;
-  margin-left: -2px;
+  margin-left: 0;
 }
 
 .Header {
-  width: 327;
-  height: 79px;
+  width: 90%;
+  height: 162px;
   color: #ff6b00;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -456,7 +588,7 @@
   letter-spacing: 0.37px;
   margin-left: 24px;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 68px;
 }
 
 .AboutMeTextSection {
@@ -472,27 +604,38 @@
 }
 
 .ResumeButton {
-  width: 192px;
-  height: 66px;
+  width: 124px;
+  height: 55px;
   font-family: "Inter", sans-serif;
   background-color: #ff6b00;
   border: none;
   color: #fff;
-  padding: 12px;
+  padding: 0;
   text-align: center;
   display: inline-block;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 14px;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-top: 24px;
+  margin-top: 52px;
   margin-left: 24px;
 }
 
 .ResumeButton:hover {
   background-color: #fff5e1;
-  border: #f55800;
   color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.ResumeButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.ResumeButton:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
 .secondBackgroundImage {
@@ -517,8 +660,9 @@
 }
 
 .MySkills {
-  margin-top: 286px;
-  margin-left: -65px;
+  width: 100%;
+  margin-top: 226px;
+  margin-left: 0;
   color: #fff;
   text-align: center;
 }
@@ -546,7 +690,7 @@
 .background {
   background: url(background.png);
   height: 260px;
-  width: 160px;
+  width: 116px;
   background-repeat: no-repeat;
   position: absolute;
   background-size: cover;
@@ -570,22 +714,28 @@
   text-align: center;
   font-size: 24px;
   line-height: 44px;
-  width: 369px;
+  width: 100%;
   position: absolute;
   margin: 30px 0 0 0;
   font-family: "Inter", sans-serif;
-  height: 216px;
+  height: 260px;
   order: 0;
   flex-grow: 0;
 }
 
+.smallPara {
+  width: 100%;
+}
+
 .input {
+  gap: 10px;
   display: flex;
-  padding: 0;
+  padding: 24px;
   list-style: none;
   flex-direction: column;
-  margin-left: -20px;
-  margin-right: -10px;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .Email {
@@ -593,14 +743,14 @@
 }
 
 .gaps1 {
-  margin: 4px -19px 0;
-  width: 315px;
+  margin: 0;
+  width: 100%;
   border: 1px solid #dbd8d7;
 }
 
 .gaps2 {
-  margin: -4px 13px 0;
-  width: 315px;
+  margin: 0;
+  width: 100%;
   border: 1px solid #dbd8d7;
 }
 
@@ -609,11 +759,12 @@
   display: flex;
   flex-direction: column;
   flex: 1 auto;
-  padding-right: 100px;
+  padding-right: 0;
   border: none;
+  width: 100%;
   font-family: "Inter", sans-serif;
-  margin-left: 69px;
-  margin-right: -42px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .newInputName01 {
@@ -629,11 +780,26 @@ input#Name {
 }
 
 .newInputEmail {
-  margin: 6px 132px 26px 37px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  padding-right: 0;
+  border: none;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 8px;
 }
 
 #Email {
   border: none;
+}
+
+.textArea {
+  margin-top: 6px;
+  width: 100%;
 }
 
 .textArea1 {
@@ -644,15 +810,15 @@ input#Name {
   font-size: 15px;
   font-style: italic;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0;
   color: #3c3a39;
   text-align: left;
-  padding: 12px;
+  padding: 0;
   height: 87px;
-  margin: 56px;
-  margin-top: 2px;
-  width: 276px;
+  margin: 0;
+  margin-top: 0;
+  width: 100%;
 }
 
 .connectIcons2 {
@@ -661,15 +827,16 @@ input#Name {
   flex-direction: row;
   gap: 24px;
   list-style: none;
-  margin-left: -23px;
+  margin-left: 0;
   margin-top: 43px;
-  width: 200px;
+  width: 100%;
+  justify-content: center;
   height: 40px;
 }
 
 .line3 {
   width: 100%;
-  margin-top: 591px;
+  margin-top: 635px;
 }
 
 .submit {
@@ -682,17 +849,28 @@ input#Name {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  margin-top: -42px;
-  margin-left: 122px;
-  width: 146px;
+  margin-top: 10px;
+  margin-left: 0;
+  width: 114%;
   height: 64px;
   align-items: center;
 }
 
-.submit:hover {
+.submitButton:hover {
   background-color: #fff5e1;
-  border: #f55800;
   color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.submitButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.submitButton:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
 @media (min-width: 768px) {
@@ -701,8 +879,8 @@ input#Name {
     position: absolute;
     bottom: 132px;
     right: 0;
-    width: 436px;
-    height: 505px;
+    width: 38%;
+    height: 663px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -710,7 +888,8 @@ input#Name {
   #upperSection {
     display: flex;
     justify-content: end;
-    margin-right: 190px;
+    margin-right: 42px;
+    margin-left: 88px;
     align-items: baseline;
     flex: 1;
   }
@@ -774,29 +953,42 @@ input#Name {
   }
 
   .mainSentenceText {
-    width: 566px;
+    display: flex;
+    width: 55%;
+    padding: 6px 24px 0 142px;
+    height: 127px;
     order: 1;
-    margin-left: 143px;
-    margin-top: 143px;
+    margin-left: -4px;
+    margin-top: 193px;
   }
 
   .subSentenceText {
-    width: 566px;
-    margin-left: 143px;
-    margin-top: 24px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    width: 55%;
+    padding: 6px 24px 0 142px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    color: #fff5e1;
+    margin-top: 55px;
     order: 2;
-    font-weight: 500;
-    font-size: 32px;
   }
 
   .littleParagraph {
-    font-weight: 500;
-    font-size: 20px;
-    width: 566px;
-    height: 123px;
-    margin-left: 143px;
-    margin-top: 24px;
+    font-style: normal;
+    font-size: 16px;
     order: 3;
+    font-weight: 400;
+    line-height: 24px;
+    width: 55%;
+    padding: 6px 24px 0 142px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-top: 14px;
   }
 
   .connectIcons {
@@ -807,7 +999,7 @@ input#Name {
     height: 20px;
     left: 0.5%;
     right: 96.11%;
-    top: 25.37%;
+    top: 21.37%;
     bottom: 89.19%;
     order: 2;
     margin-top: 140px;
@@ -822,28 +1014,38 @@ input#Name {
   .SecondPage {
     margin-top: 755px;
     width: 100%;
-    margin-left: -420px;
+    margin-left: 0;
   }
 
   .myProjects {
     display: flex;
-    margin-left: 30.5px;
-    margin-top: 58px;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 44px;
+    width: 100%;
   }
 
   .MyRecentWorksTop {
     font-family: "Crete Round", sans-serif;
     font-size: 40px;
-    margin-right: -64px;
-    width: 314px;
+    margin-right: 0;
+    width: 100%;
+    margin-left: 194px;
   }
 
   .AboutLine1 {
     height: 0;
     margin-top: 242px;
-    width: 698px;
-    margin-left: 366px;
+    width: 598px;
+    margin-left: 508px;
     border: 1px solid #212121;
+  }
+
+  .multiPostPage {
+    margin-left: 0;
+    width: 100%;
   }
 
   .mainimage1 {
@@ -853,23 +1055,23 @@ input#Name {
   .mainimage2 {
     display: flex;
     margin-top: 55px;
-    margin-left: 528px;
-    margin-right: -78px;
-    height: 436px;
-    width: 640px;
+    margin-left: 12%;
+    margin-right: 0;
+    height: 412px;
+    width: 574px;
   }
 
   .rightSection {
-    width: 203px;
+    width: 100%;
     height: 426px;
-    margin-left: 1105px;
+    margin-left: 0;
     margin-top: -425px;
   }
 
   .multiPostStories {
     display: flex;
-    margin-top: 0;
-    margin-left: 80px;
+    margin-top: 22px;
+    margin-left: 56%;
     margin-right: 0;
     height: -40px;
     width: 448px;
@@ -879,7 +1081,7 @@ input#Name {
   .pageInformation {
     display: flex;
     margin-top: 40px;
-    margin-left: 82px;
+    margin-left: 56%;
     margin-right: 0;
     height: 89px;
     width: 448px;
@@ -889,17 +1091,17 @@ input#Name {
   .techStacks {
     display: flex;
     margin-top: 48px;
-    margin-left: 82px;
+    margin-left: 56%;
     margin-right: 0;
-    height: 0;
-    width: 0;
+    height: 32px;
+    width: 43px;
     font-size: 0;
   }
 
   .firstProjectButton {
     display: flex;
     margin-top: 77px;
-    margin-left: 80px;
+    margin-left: 56%;
     margin-right: 0;
     height: 55px;
     width: 124px;
@@ -908,6 +1110,8 @@ input#Name {
   }
 
   .ThirdPage {
+    resize: both;
+    overflow: auto;
     display: grid;
     grid-template-columns: repeat(3, 352px);
     grid-template-rows: repeat(2, 404px);
@@ -915,10 +1119,10 @@ input#Name {
     width: 100%;
     max-width: 1440px;
     gap: 17px -4px;
-    height: 554px;
+    height: 808px;
     justify-content: center;
-    margin-top: 28px;
-    margin-left: 828px;
+    margin-top: 16px;
+    margin-left: 0;
   }
 
   .Screen1D {
@@ -1098,7 +1302,8 @@ input#Name {
   /* about me page */
   .AboutMePage {
     width: 100%;
-    height: 1195px;
+    margin-top: 6%;
+    height: 950px;
     display: flex;
   }
 
@@ -1111,17 +1316,15 @@ input#Name {
   }
 
   .AboutMeTextSection-D {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #f4f5f7;
-    margin-top: 24px;
-    margin-left: 142px;
-    display: flex;
-    width: 566px;
-    height: 148px;
-    font-family: "Inter", sans-serif;
     font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 50%;
+    padding: 6px 24px 0 142px;
+    font-family: Poppins, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 14px;
   }
 
   .ResumeButton-D {
@@ -1130,10 +1333,10 @@ input#Name {
 
   .secondBackgroundImage-D {
     position: absolute;
-    bottom: 844px;
+    bottom: 65%;
     right: 0;
-    width: 581px;
-    height: 350px;
+    width: 452px;
+    height: 25%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(background-2D.png);
@@ -1145,7 +1348,7 @@ input#Name {
 
   .AboutLine2 {
     width: 85%;
-    top: 640px;
+    top: 506px;
     position: absolute;
     border: 1px solid #fff;
     align-items: center;
@@ -1154,16 +1357,18 @@ input#Name {
   }
 
   .MySkills {
-    margin-left: 245px;
-    width: 60%;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-around;
     display: flex;
   }
 
   .containerTech {
-    margin-left: -48px;
     display: grid;
     grid-template-columns: repeat(3, 352px);
-    text-align: start;
+    text-align: center;
     margin-top: 78px;
   }
 
@@ -1176,31 +1381,39 @@ input#Name {
   }
 
   .form {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
-    width: 80%;
-    margin-left: 176px;
-    margin-top: -48px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: -162px;
     padding: 0;
-    max-width: 1188px;
+    justify-content: center;
     height: 782px;
   }
 
   .smallPara {
     text-align: start;
     width: 373px;
-    margin-left: -40px;
-    align-items: center;
+    margin-left: 8%;
   }
 
-  .input {
+  .firstForm {
+    height: 286px;
+    width: 100%;
     display: flex;
     padding: 0;
     list-style: none;
     flex-direction: column;
-    margin-left: 341px;
-    margin-right: -10px;
-    margin-top: -204px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 8px;
+  }
+
+  .input {
+    width: 54%;
+    align-self: flex-start;
+    margin-top: -216px;
+    margin-left: 36%;
   }
 
   .mainContent {
@@ -1210,11 +1423,11 @@ input#Name {
     text-align: center;
     font-size: 24px;
     line-height: 44px;
-    width: 369px;
+    width: 100%;
     position: absolute;
-    margin: 52px 0 0 0;
+    margin: 0 0 0 0;
     font-family: "Inter", sans-serif;
-    height: 216px;
+    height: 300px;
     order: 0;
     flex-grow: 0;
   }
@@ -1270,15 +1483,18 @@ input#Name {
   }
 
   .newInputEmail {
-    margin: 16px 150px 29px 68px;
-  }
-
-  #Email {
+    margin: 30px 150px 29px 68px;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    padding-right: 100px;
     border: none;
-    width: 538px;
+    font-family: "Inter", sans-serif;
   }
 
-  .textArea1 {
+  .textArea {
     display: flex;
     background-color: #fbf8f7;
     border: none;
@@ -1293,8 +1509,19 @@ input#Name {
     padding: 12px;
     height: 90px;
     margin: 56px;
-    margin-top: -2px;
+    margin-top: 54px;
     width: 644px;
+  }
+
+  #textArea1 {
+    border: none;
+    width: 548px;
+    margin-left: -12px;
+  }
+
+  #Email {
+    border: none;
+    width: 538px;
   }
 
   .button1 {
@@ -1305,14 +1532,26 @@ input#Name {
     background-color: #ff6b00;
   }
 
+  .line3D {
+    margin-top: 526px;
+    height: 10pc;
+    width: 80%;
+  }
+
+  .line3 {
+    width: 100%;
+    margin-top: 18px;
+  }
+
   .connectIcons22 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     gap: 24px;
     list-style: none;
-    margin-left: -720px;
-    margin-top: 739px;
+    margin-left: 46%;
+    margin-top: 20px;
     width: 200px;
     height: 40px;
   }
