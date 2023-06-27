@@ -48,6 +48,7 @@
 }
 
 * {
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -943,9 +944,13 @@ input#Name {
     margin-bottom: -14px;
   }
 
+  .section2{
+    height: 1548px;
+  }
+
   .mainSentences {
     width: 100%;
-    height: 798px;
+    height: 652px;
     margin-left: -1px;
     background-position: right;
     background-size: contain;
@@ -1012,9 +1017,11 @@ input#Name {
   }
 
   .SecondPage {
-    margin-top: 755px;
+    margin-top: 0;
     width: 100%;
     margin-left: 0;
+    align-items: center;
+    justify-content: center;
   }
 
   .myProjects {
@@ -1029,51 +1036,61 @@ input#Name {
 
   .MyRecentWorksTop {
     font-family: "Crete Round", sans-serif;
-    font-size: 40px;
+    font-size: 42px;
     margin-right: 0;
     width: 100%;
-    margin-left: 194px;
+    padding: px;
+    margin-left: -31vw;
   }
 
   .AboutLine1 {
     height: 0;
-    margin-top: 242px;
-    width: 598px;
-    margin-left: 508px;
+    margin-top: -51vw;
+    display: flex;
+    width: 36vw;
+    align-items: center;
+    margin-left: 50px;
     border: 1px solid #212121;
   }
 
   .multiPostPage {
     margin-left: 0;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
   }
 
   .mainimage1 {
     display: none;
   }
 
+  .image2{
+    padding: 12px;
+    padding-left: 22%;
+  }
+
   .mainimage2 {
     display: flex;
-    margin-top: 55px;
-    margin-left: 12%;
+    margin-top: 0;
+    margin-left: 0;
     margin-right: 0;
     height: 412px;
-    width: 574px;
+    width: 100%;
   }
 
   .rightSection {
     width: 100%;
-    height: 426px;
-    margin-left: 0;
-    margin-top: -425px;
+    height: 438px;
+    margin-left: 0px;
+    margin-top: 0;
   }
 
   .multiPostStories {
     display: flex;
     margin-top: 22px;
-    margin-left: 56%;
+    margin-left: 0;
     margin-right: 0;
-    height: -40px;
+    height: 50px;
     width: 448px;
     font-size: 36px;
   }
@@ -1081,59 +1098,50 @@ input#Name {
   .pageInformation {
     display: flex;
     margin-top: 40px;
-    margin-left: 56%;
+    margin-left: 0;
+    text-align: center;
     margin-right: 0;
-    height: 89px;
+    height: 128px;
     width: 448px;
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .techStacks {
     display: flex;
-    margin-top: 48px;
-    margin-left: 56%;
+    margin-top: 18px;
+    margin-left: 0;
     margin-right: 0;
     height: 32px;
-    width: 43px;
+    width: 56px;
     font-size: 0;
   }
 
   .firstProjectButton {
     display: flex;
-    margin-top: 77px;
-    margin-left: 56%;
+    margin-top: 24px;
+    margin-left: 0;
     margin-right: 0;
     height: 55px;
+    cursor: pointer;
     width: 124px;
-    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
     align-items: center;
   }
 
   .ThirdPage {
-    resize: both;
-    overflow: auto;
     display: grid;
-    grid-template-columns: repeat(3, 352px);
-    grid-template-rows: repeat(2, 404px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-items: center;
-    width: 100%;
+    width: 85%;
     max-width: 1440px;
-    gap: 17px -4px;
     height: 808px;
+    gap: 12px 30px;
     justify-content: center;
     margin-top: 16px;
     margin-left: 0;
-  }
-
-  .Screen1D {
-    background-image: url(1D.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: -1px;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
   }
 
   .screen1 {
@@ -1155,6 +1163,17 @@ input#Name {
   .secondProjectButton {
     margin-top: 344px;
   }
+  
+  .Screen1D {
+    background-image: url(1D.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: -1px;
+    height: 388px;
+    width: 100%;
+    margin-left: 5px;
+  }
 
   .Screen2D {
     background-image: url(2D.png);
@@ -1162,7 +1181,48 @@ input#Name {
     display: flex;
     margin-top: 0;
     height: 387px;
-    width: 327px;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .Screen3D {
+    background-image: url(3D.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0;
+    height: 387px;
+    width: 100%;
+    margin-left: 5px;
+  }
+  
+  .Screen4D {
+    background-image: url(screen.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0;
+    height: 388px;
+    background-size: cover;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .Screen5D {
+    background-image: url(2D.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0;
+    height: 388px;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .Screen6D {
+    background-image: url(3D.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 0;
+    height: 388px;
+    width: 100%;
     margin-left: 5px;
   }
 
@@ -1198,16 +1258,6 @@ input#Name {
     margin-top: -7px;
   }
 
-  .Screen3D {
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 387px;
-    width: 327px;
-    margin-left: 5px;
-  }
-
   .PrintingData3-6D {
     display: flex;
     list-style: none;
@@ -1234,17 +1284,6 @@ input#Name {
     line-height: 24px;
     margin-top: -14px;
     padding-left: 13px;
-  }
-
-  .Screen4D {
-    background-image: url(screen.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    background-size: cover;
-    width: 327px;
-    margin-left: 5px;
   }
 
   .PrintingData4 {
@@ -1275,26 +1314,6 @@ input#Name {
     padding-left: 13px;
   }
 
-  .Screen5D {
-    background-image: url(2D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
-  }
-
-  .Screen6D {
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
-  }
-
   .secondProjectButtonD {
     display: none;
   }
@@ -1309,6 +1328,7 @@ input#Name {
 
   .Header {
     margin-left: 142px;
+    width: 50%;
   }
 
   .AboutMeTextSection {
@@ -1348,7 +1368,7 @@ input#Name {
 
   .AboutLine2 {
     width: 85%;
-    top: 506px;
+    top: 538px;
     position: absolute;
     border: 1px solid #fff;
     align-items: center;
@@ -1367,8 +1387,9 @@ input#Name {
 
   .containerTech {
     display: grid;
-    grid-template-columns: repeat(3, 352px);
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
+    width: 100%;
     margin-top: 78px;
   }
 
@@ -1392,13 +1413,13 @@ input#Name {
   }
 
   .smallPara {
-    text-align: start;
-    width: 373px;
-    margin-left: 8%;
+    text-align: end;
+    width: 100%;
+    margin-left: 0;
   }
 
   .firstForm {
-    height: 286px;
+    height: 298px;
     width: 100%;
     display: flex;
     padding: 0;
@@ -1406,18 +1427,21 @@ input#Name {
     flex-direction: column;
     margin-right: 0;
     margin-left: 0;
-    margin-top: 8px;
+    margin-top: 0;
   }
 
   .input {
-    width: 54%;
+    width: 100%;
     align-self: flex-start;
-    margin-top: -216px;
-    margin-left: 36%;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
   }
 
   .mainContent {
     flex: none;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     color: #172b4d;
     font-weight: 700;
     text-align: center;
@@ -1437,14 +1461,14 @@ input#Name {
   }
 
   .gaps1 {
-    margin: 4px -19px 0;
-    width: 315px;
+    margin: 4px -4px 0;
+    width: 275px;
     border: 1px solid #dbd8d7;
   }
 
   .gaps2 {
-    margin: -3px -17px 0;
-    width: 670px;
+    margin: 4px -4px 0;
+    width: 275px;
     border: 1px solid #dbd8d7;
   }
 
@@ -1458,11 +1482,11 @@ input#Name {
     display: flex;
     flex-direction: column;
     flex: 1 auto;
-    padding-right: 100px;
+    padding-right: 0;
     border: none;
     font-family: "Inter", sans-serif;
-    margin-left: 69px;
-    margin-right: -42px;
+    margin-left: -288px;
+    margin-right: 0;
   }
 
   .newInputName02 {
@@ -1471,11 +1495,11 @@ input#Name {
     display: flex;
     flex-direction: column;
     flex: 1 auto;
-    padding-right: 100px;
+    padding-right: 0;
     border: none;
     font-family: "Inter", sans-serif;
-    margin-left: 425px;
-    margin-right: -42px;
+    margin-left: 298px;
+    margin-right: 0;
   }
 
   input#Name {
@@ -1483,13 +1507,15 @@ input#Name {
   }
 
   .newInputEmail {
-    margin: 30px 150px 29px 68px;
+    margin-top: 32px;
+    margin-left: -8px;
     font-weight: 400;
     position: absolute;
+    width: 46%;
     display: flex;
     flex-direction: column;
     flex: 1 auto;
-    padding-right: 100px;
+    padding-right: 0;
     border: none;
     font-family: "Inter", sans-serif;
   }
@@ -1506,12 +1532,11 @@ input#Name {
     letter-spacing: 0;
     color: #3c3a39;
     text-align: left;
-    padding: 12px;
+    padding: 0;
     height: 90px;
-    margin: 56px;
-    margin-top: 54px;
-    width: 644px;
-  }
+    margin: 0;
+    margin-top: 65px;
+    width: 90%;
 
   #textArea1 {
     border: none;
