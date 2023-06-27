@@ -28,3 +28,4 @@ hamburgerCloseConst.addEventListener('click', closeMenu);
 pageLinkConst.forEach((item) => {
   item.addEventListener('click', handlePageLinkClick);
 });
+
