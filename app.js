@@ -1,112 +1,114 @@
-const hamburgerOpenConst = document.querySelector(".hamburgerOpen");
-const hamburgerCloseConst = document.querySelector(".hamburgerClose");
-const menuPageConst = document.querySelector(".menuPage");
-const pageLinkConst = document.querySelectorAll(".pageLink");
+const hamburgerOpenConst = document.querySelector('.hamburgerOpen');
+const hamburgerCloseConst = document.querySelector('.hamburgerClose');
+const menuPageConst = document.querySelector('.menuPage');
+const pageLinkConst = document.querySelectorAll('.pageLink');
 
 function openMenu() {
-  menuPageConst.style.display = "flex";
-  menuPageConst.style.top = "0";
+  menuPageConst.style.display = 'flex';
+  menuPageConst.style.top = '0';
 }
 
 function closeMenu() {
-  menuPageConst.style.top = "-100%";
+  menuPageConst.style.top = '-100%';
 }
 
 function handlePageLinkClick() {
   closeMenu();
 
-  const targetSectionId = this.getAttribute("href");
+  const targetSectionId = this.getAttribute('href');
 
   const targetSection = document.querySelector(targetSectionId);
 
-  targetSection.scrollIntoView({ behavior: "smooth" });
+  targetSection.scrollIntoView({ behavior: 'smooth' });
 }
 
-hamburgerOpenConst.addEventListener("click", openMenu);
-hamburgerCloseConst.addEventListener("click", closeMenu);
+hamburgerOpenConst.addEventListener('click', openMenu);
+hamburgerCloseConst.addEventListener('click', closeMenu);
 
 pageLinkConst.forEach((item) => {
-  item.addEventListener("click", handlePageLinkClick);
+  item.addEventListener('click', handlePageLinkClick);
 });
 
 // popup
 
-
 const projects = [
   {
-    name: "Multi Post Stories",
-    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-    image: "popupImg.png",
-    technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
-    liveLink: "https://examplelinkofpage.com/live",
-    sourceLink: "https://examplelinkofpage.com/source",
+    name: 'Multi Post Stories',
+    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    image: 'popupImg.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
+    liveLink: 'https://examplelinkofpage.com/live',
+    sourceLink: 'https://examplelinkofpage.com/source',
   },
   {
-    name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
-    image: "screen.png",
-    technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
-    liveLink: "https://examplelinkofpage.com/live",
-    sourceLink: "https://examplelinkofpage.com/source",
+    name: 'Professional Art Printing Data',
+    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
+    image: 'screen.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
+    liveLink: 'https://examplelinkofpage.com/live',
+    sourceLink: 'https://examplelinkofpage.com/source',
   },
   {
-    name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
-    image: "screen.png",
-    technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
-    liveLink: "https://examplelinkofpage.com/live",
-    sourceLink: "https://examplelinkofpage.com/source",
+    name: 'Professional Art Printing Data',
+    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
+    image: 'screen.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
+    liveLink: 'https://examplelinkofpage.com/live',
+    sourceLink: 'https://examplelinkofpage.com/source',
   },
   {
-    name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
-    image: "screen.png",
-    technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
-    liveLink: "https://examplelinkofpage.com/live",
-    sourceLink: "https://examplelinkofpage.com/source",
+    name: 'Professional Art Printing Data',
+    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
+    image: 'screen.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
+    liveLink: 'https://examplelinkofpage.com/live',
+    sourceLink: 'https://examplelinkofpage.com/source',
   },
   {
-    name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
-    image: "screen.png",
-    technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
-    liveLink: "https://examplelinkofpage.com/live",
-    sourceLink: "https://examplelinkofpage.com/source",
+    name: 'Professional Art Printing Data',
+    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
+    image: 'screen.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
+    liveLink: 'https://examplelinkofpage.com/live',
+    sourceLink: 'https://examplelinkofpage.com/source',
   },
   {
-    name: "Professional Art Printing Data",
-    description: "  A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
-    image: "screen.png",
-    technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
-    liveLink: "https://examplelinkofpage.com/live",
-    sourceLink: "https://examplelinkofpage.com/source",
+    name: 'Professional Art Printing Data',
+    description: '  A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
+    image: 'screen.png',
+    technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
+    liveLink: 'https://examplelinkofpage.com/live',
+    sourceLink: 'https://examplelinkofpage.com/source',
   },
 ];
 
 function openPopup(index) {
   const project = projects[index];
 
-  const popup = document.getElementById("popup");
-  const popupName = document.getElementById("popupName");
-  const popupTechnologies = document.getElementById("popupTechnologies");
-    const popupImage = document.getElementById("popupImage");
-  const popupDescription = document.getElementById("popupDescription");
-  const popupLiveLink = document.getElementById("popupLiveLink");
-         const popupSourceLink = document.getElementById("popupSourceLink");
+  const popup = document.getElementById('popup');
+  const popupName = document.getElementById('popupName');
+  const popupTechnologies = document.getElementById('popupTechnologies');
+  const popupImage = document.getElementById('popupImage');
+  const popupDescription = document.getElementById('popupDescription');
+  const popupLiveLink = document.getElementById('popupLiveLink');
+  const popupSourceLink = document.getElementById('popupSourceLink');
 
   popupName.textContent = project.name;
 
-  popupTechnologies.innerHTML = project.technologies.map(tech => `<li>${tech}</li>`).join("");
+  popupTechnologies.innerHTML = project.technologies.map((tech) => `<li>${tech}</li>`).join('');
   popupImage.src = project.image;
 
   popupDescription.textContent = project.description;
   popupLiveLink.onclick = () => window.open(project.liveLink);
   popupSourceLink.onclick = () => window.open(project.sourceLink);
 
-  popup.classList.add("open-popup");
+  popup.classList.add('open-popup');
 }
 
 function closePopup() {
-  const popup = document.getElementById("popup");
-  popup.classList.remove("open-popup");
+  const popup = document.getElementById('popup');
+  popup.classList.remove('open-popup');
 }
+
+openPopup();
+closePopup();
