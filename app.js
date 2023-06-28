@@ -29,3 +29,13 @@ pageLinkConst.forEach((item) => {
   item.addEventListener('click', handlePageLinkClick);
 });
 
+// popup
+let popup = document.getElementById("popup");
+
+function openPopup() {
+  popup.classList.add("open-popup");
+}
+
+function closePopup() {
+  popup.classList.remove("open-popup");
+}
