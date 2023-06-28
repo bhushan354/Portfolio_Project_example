@@ -30,20 +30,12 @@ pageLinkConst.forEach((item) => {
 });
 
 // popup
-let popup = document.getElementById("popup");
 
-function openPopup() {
-  popup.classList.add("open-popup");
-}
-
-function closePopup() {
-  popup.classList.remove("open-popup");
-}
 
 const projects = [
   {
     name: "Multi Post Stories",
-    description: " A daily selection of privately personalized reads",
+    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     image: "popupImg.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -51,7 +43,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads",
+    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -59,7 +51,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads",
+    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -67,7 +59,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads",
+    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -75,7 +67,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads",
+    description: " A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -83,7 +75,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: " A daily selection of privately personalized reads",
+    description: "  A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
