@@ -43,7 +43,7 @@ function closePopup() {
 const projects = [
   {
     name: "Multi Post Stories",
-    description: "Lorem Ipsum is simply dummy text...",
+    description: " A daily selection of privately personalized reads",
     image: "popupImg.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -51,7 +51,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: "Lorem Ipsum is simply dummy text...",
+    description: " A daily selection of privately personalized reads",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -59,7 +59,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: "Lorem Ipsum is simply dummy text...",
+    description: " A daily selection of privately personalized reads",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -67,7 +67,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: "Lorem Ipsum is simply dummy text...",
+    description: " A daily selection of privately personalized reads",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -75,7 +75,7 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: "Lorem Ipsum is simply dummy text...",
+    description: " A daily selection of privately personalized reads",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
@@ -83,10 +83,38 @@ const projects = [
   },
   {
     name: "Professional Art Printing Data",
-    description: "Lorem Ipsum is simply dummy text...",
+    description: " A daily selection of privately personalized reads",
     image: "screen.png",
     technologies: ["HTML", "Bootstrap", "Ruby On Rails"],
     liveLink: "https://examplelinkofpage.com/live",
     sourceLink: "https://examplelinkofpage.com/source",
   },
 ];
+
+function openPopup(index) {
+  const project = projects[index];
+
+  const popup = document.getElementById("popup");
+  const popupName = document.getElementById("popupName");
+  const popupTechnologies = document.getElementById("popupTechnologies");
+    const popupImage = document.getElementById("popupImage");
+  const popupDescription = document.getElementById("popupDescription");
+  const popupLiveLink = document.getElementById("popupLiveLink");
+         const popupSourceLink = document.getElementById("popupSourceLink");
+
+  popupName.textContent = project.name;
+
+  popupTechnologies.innerHTML = project.technologies.map(tech => `<li>${tech}</li>`).join("");
+  popupImage.src = project.image;
+
+  popupDescription.textContent = project.description;
+  popupLiveLink.onclick = () => window.open(project.liveLink);
+  popupSourceLink.onclick = () => window.open(project.sourceLink);
+
+  popup.classList.add("open-popup");
+}
+
+function closePopup() {
+  const popup = document.getElementById("popup");
+  popup.classList.remove("open-popup");
+}
