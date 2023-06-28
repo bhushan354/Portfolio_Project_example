@@ -93,6 +93,8 @@ function openPopup(index) {
   const popupLiveLink = document.getElementById('popupLiveLink');
   const popupSourceLink = document.getElementById('popupSourceLink');
 
+  const multiPostPage = document.getElementById('multiPostPage');
+
   popupName.textContent = project.name;
 
   popupTechnologies.innerHTML = project.technologies.map((tech) => `<li>${tech}</li>`).join('');
@@ -103,11 +105,15 @@ function openPopup(index) {
   popupSourceLink.onclick = () => window.open(project.sourceLink);
 
   popup.classList.add('open-popup');
+  multiPostPage.classList.add('popup-container');
 }
 
 function closePopup() {
   const popup = document.getElementById('popup');
   popup.classList.remove('open-popup');
+
+  const multiPostPage = document.getElementById('multiPostPage');
+  multiPostPage.classList.remove('popup-container');
 }
 
 openPopup();
