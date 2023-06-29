@@ -1763,7 +1763,8 @@ input#Name {
       height: 64px;
       align-items: center;
     }
-     .connectIcons22 {
+
+    .connectIcons22 {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1775,6 +1776,5 @@ input#Name {
       width: 200px;
       height: 40px;
     }
-
   }
 }
