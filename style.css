@@ -1747,5 +1747,22 @@ input#Name {
       margin-top: 18px;
     }
 
+     .submit {
+      border: none;
+      background-color: #ff6b00;
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      font-style: normal;
+      font-family: "Inter", sans-serif;
+      margin-top: 10px;
+      margin-left: 0;
+      width: 124px;
+      height: 64px;
+      align-items: center;
+    }
+
   }
 }
