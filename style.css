@@ -1250,6 +1250,55 @@ input#Name {
     align-items: center;
   }
 
+  /* popup */
+  .popup {
+    width: 85%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.2);
+    padding: 0;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    background: #fff;
+    backdrop-filter: blur(2.2222222222222222e+21px);
+  }
+
+  .open-popup {
+    visibility: visible;
+    padding: 26px;
+    top: 1100px;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+
+  .popup h2 {
+    color: #172b4d;
+    font-size: 56px;
+  }
+
+  .techButtons {
+    margin-top: 24px;
+    display: flex;
+    list-style-type: none;
+    width: 85%;
+    justify-content: flex-start;
+  }
+
+  .techButtons li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    height: 44px;
+    padding: 5px;
+    margin: 5px;
+    gap: 12px;
+    width: 80%;
+    border: 1px solid#979493;
+  }
+
+  /* pages conatiner */
   .ThirdPage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
