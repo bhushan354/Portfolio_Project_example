@@ -74,7 +74,7 @@ const projects = [
   },
   {
     name: 'Professional Art Printing Data',
-    description: '  A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
+    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
     image: 'screen.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby On Rails'],
     liveLink: 'https://examplelinkofpage.com/live',
