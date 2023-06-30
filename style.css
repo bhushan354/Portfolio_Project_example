@@ -512,7 +512,6 @@
   display: flex;
 }
 
-
 /* pages containers */
 
 .myProjects {
@@ -617,9 +616,6 @@
   width: 95%;
 }
 
-
-/*
-things i think willneed mt for desktop */
 .PrintingData {
   display: flex;
   list-style: none;
@@ -1026,9 +1022,6 @@ input#Name {
   border: none;
   color: #5b5957;
 }
-
-
-/* /////media queries */
 
 @media (min-width: 768px) {
   .background-D {
@@ -1518,7 +1511,6 @@ input#Name {
     padding: 0;
   }
 
-
   /* pages conatiner */
   .ThirdPage {
     display: grid;
@@ -1554,7 +1546,6 @@ input#Name {
     margin-top: 344px;
   }
 
-  /* // */
   .PrintingData2-5D {
     display: flex;
     list-style: none;
