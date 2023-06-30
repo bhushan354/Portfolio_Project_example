@@ -90,7 +90,7 @@ const projects = [
   },
 ];
 
-// generatingg six cards dynamically usinh ayyay
+// generatingg six cards dynamically using javascript
 function generateProjectSection() {
   const projectContainer = document.querySelector('.myProjects');
 
