@@ -99,12 +99,9 @@
 
     <!-- my portfolio template -->
     <section class="section2" id="section2">
+      
       <div class="SecondPage">
-        <div class="myProjects">
-          <h2 class="MyRecentWorksTop">My Recent Works</h2>
-          <hr class="AboutLine1" />
-        </div>
-
+        <h2 class="MyRecentWorksTop">My Recent Works</h2>
         <div class="multiPostPage" id="multiPostPage">
           <div class="image2">
             <img src="mainImage.png" alt="mainimage1" class="mainimage1" />
@@ -120,246 +117,62 @@
             </p>
             <ul class="techStacks">
               <li>
-                <button class="stackButton" type="button">CSS</button>
+                <button class="stackButton1" type="button">CSS</button>
               </li>
               <li>
-                <button class="stackButton" type="button">HTML</button>
+                <button class="stackButton1" type="button">HTML</button>
               </li>
               <li>
-                <button class="stackButton" type="button">Bootstreap</button>
+                <button class="stackButton1" type="button">Bootstreap</button>
               </li>
               <li>
-                <button class="stackButton" type="button">Ruby</button>
+                <button class="stackButton1" type="button">Ruby</button>
               </li>
             </ul>
             <div class="projectButton">
-              <button class="firstProjectButton" type="button" onClick="openPopup(0)">
+              <button class="firstProjectButton1" type="button" onClick="openPopup(0)">
                 See Project
               </button>
             
-              <!-- popup menu mobile version -->
-            
-              <div class="popup" id="popup">
-                <button class="close" type="button" onclick="closePopup()">
-                  <img src="close.png" alt="close">
-                </button>
-            
-                <h2 id="popupName">Multi Post Stories</h2>
-                <ul class="techButtons" id="popupTechnologies">
-                  <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby On Rails</li>
-                </ul>
-                <img src="popupImg.png" alt="popupImg" id="popupImage"/>
-                <h3 id="popupDescription">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining essent
-                </h3>
-            
-                <div class="endButtons">
-                  <button class="endButton11" type="button"  id="popupLiveLink">
-                    <img src="seelive.png" alt="seelive">
-                    See Live
-                  </button>
-                  <button class="endButton11" type="button" id="popupSourceLink">
-                    <img src="pagesource.png" alt="seelive">
-                    Page Source
-                  </button>
+              <!-- popup menu -->
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <button class="popup-close" onClick="closePopup()"><img src="close.png" alt="close"></button>
+                  <h2 id="popupName"></h2>
+                  <ul id="popupTechnologies"></ul>
+
+                  <div class="middleGrid">
+                    <div class="content">
+                      <p id="popupDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <div class="endButtons">
+                        <button class="endButton11" type="button" id="popupLiveLink">
+                          <img src="seelive.png" alt="seelive">
+                          See Live
+                        </button>
+                        <button class="endButton11" type="button" id="popupSourceLink">
+                          <img src="pagesource.png" alt="seelive">
+                          Page Source
+                        </button>
+                      </div>
+                    </div>
+                    <img id="popupImage" src="" alt="Popup Image">
+                  </div>
+                  
+
                 </div>
               </div>
+              
            
           </div>
           </div>
         </div>
+
+      
+
         <!-- these are my pages container -->
-        <div class="ThirdPage">
-          <div class="Screen1 Screen1D">
-            <h3 class="PrintingData">Professional Art Printing Data</h3>
-            <p class="textSegment">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="builtWith1">
-              <li>
-                <button class="buttonOfTechStack" type="button">HTML</button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">
-                  Bootstrap
-                </button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">Ruby</button>
-              </li>
-            </ul>
-            <button class="secondProjectButton" type="button">
-              See Project
-            </button>
-          </div>
-
-          <div class="Screen2 Screen2D">
-            <h3 class="PrintingData">Professional Art Printing Data</h3>
-            <h3 class="PrintingData2-5D">Data Dashboard<br />Healthcare</h3>
-            <p class="textSegment">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <p class="textSegment2-5D">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="builtWith">
-              <li>
-                <button class="buttonOfTechStack" type="button">HTML</button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">
-                  Bootstrap
-                </button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">Ruby</button>
-              </li>
-            </ul>
-            <button
-              class="secondProjectButton secondProjectButtonD"
-              type="button"
-            >
-              See Project
-            </button>
-          </div>
-
-          <div class="Screen3 Screen3D">
-            <h3 class="PrintingData">Professional Art Printing Data</h3>
-            <h3 class="PrintingData3-6D">Website Portfolio</h3>
-            <p class="textSegment">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <p class="textSegment3-6D">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="builtWith">
-              <li>
-                <button class="buttonOfTechStack" type="button">HTML</button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">
-                  Bootstrap
-                </button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">Ruby</button>
-              </li>
-            </ul>
-            <button
-              class="secondProjectButton secondProjectButtonD"
-              type="button"
-            >
-              See Project
-            </button>
-          </div>
-
-          <div class="Screen4 Screen4D">
-            <h3 class="PrintingData">Professional Art Printing Data</h3>
-            <h3 class="PrintingData4">Professional Art Printing Data</h3>
-            <p class="textSegment">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <p class="textSegment4">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="builtWith">
-              <li>
-                <button class="buttonOfTechStack" type="button">HTML</button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">
-                  Bootstrap
-                </button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">Ruby</button>
-              </li>
-            </ul>
-            <button
-              class="secondProjectButton secondProjectButtonD"
-              type="button"
-            >
-              See Project
-            </button>
-          </div>
-
-          <div class="Screen5 Screen5D">
-            <h3 class="PrintingData">Professional Art Printing Data</h3>
-            <h3 class="PrintingData2-5D">Data Dashboard<br />Healthcare</h3>
-            <p class="textSegment">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <p class="textSegment2-5D">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="builtWith">
-              <li>
-                <button class="buttonOfTechStack" type="button">HTML</button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">
-                  Bootstrap
-                </button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">Ruby</button>
-              </li>
-            </ul>
-            <button
-              class="secondProjectButton secondProjectButtonD"
-              type="button"
-            >
-              See Project
-            </button>
-          </div>
-
-          <div class="Screen6 Screen6D">
-            <h3 class="PrintingData">Professional Art Printing Data</h3>
-            <h3 class="PrintingData3-6D">Website Portfolio</h3>
-            <p class="textSegment">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <p class="textSegment3-6D">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="builtWith">
-              <li>
-                <button class="buttonOfTechStack" type="button">HTML</button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">
-                  Bootstrap
-                </button>
-              </li>
-              <li>
-                <button class="buttonOfTechStack" type="button">Ruby</button>
-              </li>
-            </ul>
-            <button
-              class="secondProjectButton secondProjectButtonD"
-              type="button"
-            >
-              See Project
-            </button>
-          </div>
+        <div class="myProjects">
+          
+          <hr class="AboutLine1" />
         </div>
       </div>
     </section>

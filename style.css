@@ -252,13 +252,6 @@
   width: 100%;
   grid-template-rows: 250px repeat(3, auto);
   min-height: 90px;
-  margin-left: 0;
-}
-
-.myProjects {
-  width: 100%;
-  justify-content: center;
-  display: flex;
 }
 
 .multiPostPage {
@@ -342,7 +335,7 @@
   margin-left: 0;
 }
 
-.stackButton {
+.stackButton1 {
   font-weight: 400;
   font-size: 12px;
   text-align: center;
@@ -361,7 +354,7 @@
   display: flex;
 }
 
-.firstProjectButton {
+.firstProjectButton1 {
   background-color: #ff6b00;
   border: none;
   color: #fff;
@@ -379,86 +372,68 @@
   margin-left: 0;
 }
 
-.firstProjectButton:hover {
+.firstProjectButton1:hover {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
 
-.firstProjectButton:active {
+.firstProjectButton1:active {
   color: #f4f1f0;
   background-color: #e05304;
 }
 
-.firstProjectButton:disabled {
+.firstProjectButton1:disabled {
   background-color: #f4f1f0;
   border: none;
   color: #5b5957;
 }
 
 /* popup window styles */
-.anything {
-  width: 100%;
-  height: 100px;
-}
-
 .popup {
-  width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.2);
-  padding: 0;
-  visibility: hidden;
-  transition: transform 0.4s, top 0.4s;
-  background: #fff;
-  backdrop-filter: blur(2222222222222222222225px);
-}
-
-.popup img {
+  left: 0;
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.popup h2 {
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 78%;
+  height: 700px;
+  text-align: center;
+}
+
+.popup-content h2 {
+  position: relative;
   color: #172b4d;
-  font-size: 42px;
+  margin-left: 0;
+  text-align: left;
+  height: 56px;
+  font-size: 32px;
 }
 
-.open-popup {
-  visibility: visible;
-  padding: 14px;
-  top: 145%;
-  transform: translate(-50%, -50%) scale(0.9);
-}
-
-.close {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
-  height: 0;
-}
-
-.close img {
-  width: 28px;
-  height: 28px;
-  margin-right: 14px;
-  margin-top: 6px;
-}
-
-.techButtons {
+.popup ul {
   margin-top: 24px;
   display: flex;
   list-style-type: none;
-  width: 85%;
+  width: 80%;
   justify-content: flex-start;
 }
 
-.techButtons li {
+.popup li {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 44px;
+  height: 32px;
+  font-size: 14px;
   padding: 05px;
   margin: 5px;
   gap: 12px;
@@ -466,12 +441,35 @@
   border: 1px solid#979493;
 }
 
-.popup h3 {
-  margin-top: 22px;
+#popupImage {
+  width: 100%;
+  height: 336px;
+  margin-top: 8px;
+}
+
+.popup p {
+  margin-top: 8px;
+  width: 100%;
+  height: 152px;
+}
+
+.middleGrid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.popup-close {
+  position: absolute;
+  top: 52px;
+  right: 22px;
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .endButtons {
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -505,88 +503,123 @@
   width: 20px;
 }
 
+.popup-link {
+  display: block;
+  margin-top: 10px;
+}
+
+.open-popup {
+  display: flex;
+}
+
+
 /* pages containers */
 
-.ThirdPage {
-  display: grid;
+.myProjects {
   justify-items: center;
-  grid-template-rows: repeat(6, 392px);
-  grid-template-columns: 100%;
   width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin-top: 24px;
 }
 
-.Screen1 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+.myProjects h2 {
   display: flex;
-  flex-direction: column;
-  margin-top: 14px;
-  height: 372px;
-  width: 95%;
+  list-style: none;
+  width: 100%;
+  height: 88px;
+  margin-top: 58px;
+  padding-left: 0;
+  padding-top: 0;
+  line-height: 47px;
+  font-size: 32px;
+  font-style: normal;
+  font-family: "create Round", sans-serif;
+  color: #fff;
+}
+
+.myProjects p {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  line-height: 24px;
+  margin-top: 12px;
+  padding-left: 0;
+}
+
+.stackButton {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 12px;
+  margin-top: 2px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  width: 100%;
+  height: 38px;
+  color: #fff;
+  padding: 0;
+}
+
+.firstProjectButton {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  justify-content: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  height: 62px;
+  margin-top: 4px;
   margin-left: 0;
 }
 
-.Screen2 {
+.firstProjectButton:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.firstProjectButton:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.firstProjectButton:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+.project {
   background-image: url(screen.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   margin-top: 16px;
+  justify-content: center;
+  align-items: center;
   height: 372px;
   width: 95%;
-  margin-left: 0;
 }
 
-.Screen3 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
 
-.Screen4 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
-.Screen5 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
-.Screen6 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
+/*
+things i think willneed mt for desktop */
 .PrintingData {
   display: flex;
   list-style: none;
@@ -994,6 +1027,9 @@ input#Name {
   color: #5b5957;
 }
 
+
+/* /////media queries */
+
 @media (min-width: 768px) {
   .background-D {
     background-image: url(background-D.png);
@@ -1144,16 +1180,6 @@ input#Name {
     justify-content: center;
   }
 
-  .myProjects {
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 44px;
-    width: 100%;
-  }
-
   .MyRecentWorksTop {
     font-family: "Crete Round", sans-serif;
     font-size: 42px;
@@ -1228,75 +1254,270 @@ input#Name {
 
   .techStacks {
     display: flex;
-    margin-top: 18px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    height: 32px;
-    width: 56px;
+    height: 46px;
+    width: 100%;
     font-size: 0;
   }
 
-  .firstProjectButton {
-    display: flex;
-    margin-top: 24px;
-    margin-left: 0;
-    margin-right: 0;
-    height: 55px;
-    cursor: pointer;
-    width: 124px;
+  .stackButton1 {
+    font-weight: 400;
+    font-size: 12px;
     text-align: center;
-    justify-content: center;
-    font-size: 18px;
-    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #fff;
+    color: #091e42;
+    border: 2px solid #8993a4;
+    padding: 0;
+    margin-top: 0;
   }
 
   /* popup */
   .popup {
-    width: 85%;
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.2);
-    padding: 0;
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
-    background: #fff;
-    backdrop-filter: blur(2.2222222222222222e+21px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
-  .open-popup {
-    visibility: visible;
-    padding: 26px;
-    top: 1164px;
-    transform: translate(-50%, -50%) scale(0.5);
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%;
+    height: 488px;
+    text-align: center;
   }
 
-  .popup h2 {
+  .popup-content h2 {
+    position: relative;
     color: #172b4d;
-    font-size: 56px;
+    margin-left: 0;
+    text-align: left;
+    height: 56px;
+    font-size: 32px;
   }
 
-  .techButtons {
-    margin-top: 24px;
+  .popup ul {
+    margin-top: 18px;
     display: flex;
     list-style-type: none;
-    width: 85%;
+    width: 32%;
+    text-align: center;
     justify-content: flex-start;
   }
 
-  .techButtons li {
+  .popup li {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 30px;
-    justify-content: center;
-    height: 44px;
+    justify-content: left;
+    height: 32px;
+    font-size: 12px;
     padding: 5px;
     margin: 5px;
     gap: 12px;
     width: 80%;
     border: 1px solid#979493;
   }
+
+  #popupImage {
+    width: 50%;
+    height: 336px;
+    margin-top: 8px;
+  }
+
+  .popup p {
+    margin-top: 8px;
+    width: 100%;
+    text-align: start;
+    height: 272px;
+  }
+
+  .middleGrid {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: 100%;
+    flex: 1;
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 55px;
+    right: 42px;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .endButtons {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .endButton11 {
+    background-color: #ff6b00;
+    color: #fff;
+    width: 114px;
+    height: 62px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .endButton11:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .endButton11:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .endButton11 img {
+    display: flex;
+    justify-content: center;
+    margin-right: 6px;
+    width: 20px;
+  }
+
+  .popup-link {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .open-popup {
+    display: flex;
+  }
+
+  /* newpagescssforcontainer */
+
+  .myProjects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 44px;
+    width: 100%;
+  }
+
+  .myProjects h2 {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 88px;
+    margin-top: 58px;
+    padding-left: 0;
+    padding-top: 0;
+    line-height: 47px;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "create Round", sans-serif;
+    color: #fff;
+  }
+
+  .myProjects p {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    line-height: 24px;
+    margin-top: 12px;
+    padding-left: 0;
+  }
+
+  .stackButton {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 12px;
+    margin-top: 2px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: none;
+    width: 100%;
+    height: 38px;
+    color: #fff;
+    padding: 0;
+  }
+
+  .firstProjectButton {
+    background-color: #ff6b00;
+    border: none;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    justify-content: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 62px;
+    margin-top: 4px;
+    margin-left: 0;
+  }
+
+  .firstProjectButton:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .firstProjectButton:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .firstProjectButton:disabled {
+    background-color: #f4f1f0;
+    border: none;
+    color: #5b5957;
+  }
+
+  .project {
+    background-image: url(screen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 372px;
+    width: 95%;
+    background-color: #f2f2f2;
+    padding: 0;
+  }
+
 
   /* pages conatiner */
   .ThirdPage {
@@ -1333,68 +1554,7 @@ input#Name {
     margin-top: 344px;
   }
 
-  .Screen1D {
-    background-image: url(1D.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: -1px;
-    height: 388px;
-    width: 100%;
-    margin-left: 5px;
-  }
-
-  .Screen2D {
-    background-image: url(2D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 387px;
-    width: 100%;
-    margin-left: 5px;
-  }
-
-  .Screen3D {
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 387px;
-    width: 100%;
-    margin-left: 5px;
-  }
-
-  .Screen4D {
-    background-image: url(screen.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    background-size: cover;
-    width: 100%;
-    margin-left: 5px;
-  }
-
-  .Screen5D {
-    background-image: url(2D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    width: 100%;
-    margin-left: 5px;
-  }
-
-  .Screen6D {
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    width: 100%;
-    margin-left: 5px;
-  }
-
+  /* // */
   .PrintingData2-5D {
     display: flex;
     list-style: none;
@@ -1490,7 +1650,7 @@ input#Name {
   /* about me page */
   .AboutMePage {
     width: 100%;
-    margin-top: 6%;
+    margin-top: 2%;
     height: 950px;
     display: flex;
   }
