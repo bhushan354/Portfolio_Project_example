@@ -252,13 +252,6 @@
   width: 100%;
   grid-template-rows: 250px repeat(3, auto);
   min-height: 90px;
-  margin-left: 0;
-}
-
-.myProjects {
-  width: 100%;
-  justify-content: center;
-  display: flex;
 }
 
 .multiPostPage {
@@ -326,7 +319,7 @@
   justify-content: center;
   font-size: 18px;
   width: 100%;
-  height: 188px;
+  height: 156px;
   line-height: 24px;
   margin-top: 12px;
   color: #091e42;
@@ -342,7 +335,7 @@
   margin-left: 0;
 }
 
-.stackButton {
+.stackButton1 {
   font-weight: 400;
   font-size: 12px;
   text-align: center;
@@ -361,7 +354,7 @@
   display: flex;
 }
 
-.firstProjectButton {
+.firstProjectButton1 {
   background-color: #ff6b00;
   border: none;
   color: #fff;
@@ -374,6 +367,220 @@
   display: inline-block;
   cursor: pointer;
   width: 122px;
+  height: 62px;
+  margin-top: 4px;
+  margin-left: 0;
+}
+
+.firstProjectButton1:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.firstProjectButton1:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.firstProjectButton1:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+/* popup window styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 78%;
+  height: 700px;
+  text-align: center;
+}
+
+.popup-content h2 {
+  position: relative;
+  color: #172b4d;
+  margin-left: 0;
+  text-align: left;
+  height: 56px;
+  font-size: 32px;
+}
+
+.popup ul {
+  margin-top: 24px;
+  display: flex;
+  list-style-type: none;
+  width: 80%;
+  justify-content: flex-start;
+}
+
+.popup li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 32px;
+  font-size: 14px;
+  padding: 05px;
+  margin: 5px;
+  gap: 12px;
+  width: 80%;
+  border: 1px solid#979493;
+}
+
+#popupImage {
+  width: 100%;
+  height: 336px;
+  margin-top: 8px;
+}
+
+.popup p {
+  margin-top: 8px;
+  width: 100%;
+  height: 152px;
+}
+
+.middleGrid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.popup-close {
+  position: absolute;
+  top: 52px;
+  right: 22px;
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.endButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.endButton11 {
+  background-color: #ff6b00;
+  color: #fff;
+  width: 114px;
+  height: 62px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 14px;
+}
+
+.endButton11:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.endButton11:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.endButton11 img {
+  display: flex;
+  justify-content: center;
+  margin-right: 6px;
+  width: 20px;
+}
+
+.popup-link {
+  display: block;
+  margin-top: 10px;
+}
+
+.open-popup {
+  display: flex;
+}
+
+/* pages containers */
+
+.myProjects {
+  justify-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.myProjects h2 {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 88px;
+  margin-top: 58px;
+  padding-left: 0;
+  padding-top: 0;
+  line-height: 47px;
+  font-size: 32px;
+  font-style: normal;
+  font-family: "create Round", sans-serif;
+  color: #fff;
+}
+
+.myProjects p {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  line-height: 24px;
+  margin-top: 12px;
+  padding-left: 0;
+}
+
+.stackButton {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 12px;
+  margin-top: 2px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  width: 100%;
+  height: 38px;
+  color: #fff;
+  padding: 0;
+}
+
+.firstProjectButton {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  justify-content: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
   height: 62px;
   margin-top: 4px;
   margin-left: 0;
@@ -396,84 +603,17 @@
   color: #5b5957;
 }
 
-.ThirdPage {
-  display: grid;
-  justify-items: center;
-  grid-template-rows: repeat(6, 392px);
-  grid-template-columns: 100%;
-  width: 100%;
-}
-
-.Screen1 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 14px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
-.Screen2 {
+.project {
   background-image: url(screen.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   margin-top: 16px;
+  justify-content: center;
+  align-items: center;
   height: 372px;
   width: 95%;
-  margin-left: 0;
-}
-
-.Screen3 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
-.Screen4 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
-.Screen5 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
-}
-
-.Screen6 {
-  background-image: url(screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  height: 372px;
-  width: 95%;
-  margin-left: 0;
 }
 
 .PrintingData {
@@ -562,6 +702,16 @@
   background-color: #f4f1f0;
   border: none;
   color: #5b5957;
+}
+
+.popup-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
 }
 
 /* about ,me */
@@ -851,7 +1001,7 @@ input#Name {
   font-family: "Inter", sans-serif;
   margin-top: 10px;
   margin-left: 0;
-  width: 114%;
+  width: 125px;
   height: 64px;
   align-items: center;
 }
@@ -877,10 +1027,10 @@ input#Name {
   .background-D {
     background-image: url(background-D.png);
     position: absolute;
-    bottom: 132px;
+    top: 80px;
     right: 0;
-    width: 38%;
-    height: 663px;
+    width: 454px;
+    height: 594px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -943,9 +1093,13 @@ input#Name {
     margin-bottom: -14px;
   }
 
+  .section2 {
+    height: 1548px;
+  }
+
   .mainSentences {
     width: 100%;
-    height: 798px;
+    height: 652px;
     margin-left: -1px;
     background-position: right;
     background-size: contain;
@@ -1012,13 +1166,249 @@ input#Name {
   }
 
   .SecondPage {
-    margin-top: 755px;
+    margin-top: 0;
     width: 100%;
     margin-left: 0;
+    align-items: center;
+    justify-content: center;
   }
 
-  .myProjects {
+  .MyRecentWorksTop {
+    font-family: "Crete Round", sans-serif;
+    font-size: 42px;
+    margin-right: 0;
+    width: 100%;
+    padding: 0;
+    margin-left: -31vw;
+  }
+
+  .AboutLine1 {
+    height: 0;
+    margin-top: 116px;
     display: flex;
+    width: 40%;
+    align-items: center;
+    margin-left: 446px;
+    border: 1px solid #212121;
+  }
+
+  .multiPostPage {
+    margin-left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .mainimage1 {
+    display: none;
+  }
+
+  .image2 {
+    padding: 12px;
+    padding-left: 22%;
+  }
+
+  .mainimage2 {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 412px;
+    width: 100%;
+  }
+
+  .rightSection {
+    width: 90%;
+    height: 438px;
+    margin-left: 30px;
+    margin-top: 0;
+  }
+
+  .multiPostStories {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50px;
+    width: 448px;
+    font-size: 36px;
+  }
+
+  .pageInformation {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0;
+    text-align: left;
+    margin-right: 0;
+    height: 128px;
+    width: 448px;
+    font-size: 18px;
+  }
+
+  .techStacks {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 46px;
+    width: 100%;
+    font-size: 0;
+  }
+
+  .stackButton1 {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #fff;
+    color: #091e42;
+    border: 2px solid #8993a4;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  /* popup */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%;
+    height: 488px;
+    text-align: center;
+  }
+
+  .popup-content h2 {
+    position: relative;
+    color: #172b4d;
+    margin-left: 0;
+    text-align: left;
+    height: 56px;
+    font-size: 32px;
+  }
+
+  .popup ul {
+    margin-top: 18px;
+    display: flex;
+    list-style-type: none;
+    width: 32%;
+    text-align: center;
+    justify-content: flex-start;
+  }
+
+  .popup li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    height: 32px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+    gap: 12px;
+    width: 80%;
+    border: 1px solid#979493;
+  }
+
+  #popupImage {
+    width: 50%;
+    height: 336px;
+    margin-top: 8px;
+  }
+
+  .popup p {
+    margin-top: 8px;
+    width: 100%;
+    text-align: start;
+    height: 272px;
+  }
+
+  .middleGrid {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: 100%;
+    flex: 1;
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 55px;
+    right: 42px;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .endButtons {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .endButton11 {
+    background-color: #ff6b00;
+    color: #fff;
+    width: 114px;
+    height: 62px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .endButton11:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .endButton11:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .endButton11 img {
+    display: flex;
+    justify-content: center;
+    margin-right: 6px;
+    width: 20px;
+  }
+
+  .popup-link {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .open-popup {
+    display: flex;
+  }
+
+  /* newpagescssforcontainer */
+
+  .myProjects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
     margin-left: 0;
     margin-right: 0;
     align-items: center;
@@ -1027,113 +1417,113 @@ input#Name {
     width: 100%;
   }
 
-  .MyRecentWorksTop {
-    font-family: "Crete Round", sans-serif;
-    font-size: 40px;
-    margin-right: 0;
+  .myProjects h2 {
+    display: flex;
+    list-style: none;
     width: 100%;
-    margin-left: 194px;
+    height: 88px;
+    margin-top: 58px;
+    padding-left: 0;
+    padding-top: 0;
+    line-height: 47px;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "create Round", sans-serif;
+    color: #fff;
   }
 
-  .AboutLine1 {
-    height: 0;
-    margin-top: 242px;
-    width: 598px;
-    margin-left: 508px;
-    border: 1px solid #212121;
-  }
-
-  .multiPostPage {
-    margin-left: 0;
+  .myProjects p {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
     width: 100%;
+    height: 100px;
+    line-height: 24px;
+    margin-top: 12px;
+    padding-left: 0;
   }
 
-  .mainimage1 {
-    display: none;
-  }
-
-  .mainimage2 {
-    display: flex;
-    margin-top: 55px;
-    margin-left: 12%;
-    margin-right: 0;
-    height: 412px;
-    width: 574px;
-  }
-
-  .rightSection {
+  .stackButton {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 12px;
+    margin-top: 2px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: none;
     width: 100%;
-    height: 426px;
-    margin-left: 0;
-    margin-top: -425px;
-  }
-
-  .multiPostStories {
-    display: flex;
-    margin-top: 22px;
-    margin-left: 56%;
-    margin-right: 0;
-    height: -40px;
-    width: 448px;
-    font-size: 36px;
-  }
-
-  .pageInformation {
-    display: flex;
-    margin-top: 40px;
-    margin-left: 56%;
-    margin-right: 0;
-    height: 89px;
-    width: 448px;
-    font-size: 19px;
-  }
-
-  .techStacks {
-    display: flex;
-    margin-top: 48px;
-    margin-left: 56%;
-    margin-right: 0;
-    height: 32px;
-    width: 43px;
-    font-size: 0;
+    height: 38px;
+    color: #fff;
+    padding: 0;
   }
 
   .firstProjectButton {
-    display: flex;
-    margin-top: 77px;
-    margin-left: 56%;
-    margin-right: 0;
-    height: 55px;
-    width: 124px;
+    background-color: #ff6b00;
+    border: none;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    justify-content: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
     font-size: 17px;
-    align-items: center;
-  }
-
-  .ThirdPage {
-    resize: both;
-    overflow: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 352px);
-    grid-template-rows: repeat(2, 404px);
-    justify-items: center;
+    display: inline-block;
+    cursor: pointer;
     width: 100%;
-    max-width: 1440px;
-    gap: 17px -4px;
-    height: 808px;
-    justify-content: center;
-    margin-top: 16px;
+    height: 62px;
+    margin-top: 4px;
     margin-left: 0;
   }
 
-  .Screen1D {
-    background-image: url(1D.png);
-    background-position: center top;
+  .firstProjectButton:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .firstProjectButton:active {
+    color: #f4f1f0;
+    background-color: #e05304;
+  }
+
+  .firstProjectButton:disabled {
+    background-color: #f4f1f0;
+    border: none;
+    color: #5b5957;
+  }
+
+  .project {
+    background-image: url(screen.png);
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    margin-top: -1px;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
+    flex-direction: column;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 372px;
+    width: 95%;
+    background-color: #f2f2f2;
+    padding: 0;
+  }
+
+  /* pages conatiner */
+  .ThirdPage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    width: 85%;
+    max-width: 1440px;
+    height: 808px;
+    gap: 12px 30px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 0;
   }
 
   .screen1 {
@@ -1154,16 +1544,6 @@ input#Name {
 
   .secondProjectButton {
     margin-top: 344px;
-  }
-
-  .Screen2D {
-    background-image: url(2D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 387px;
-    width: 327px;
-    margin-left: 5px;
   }
 
   .PrintingData2-5D {
@@ -1198,16 +1578,6 @@ input#Name {
     margin-top: -7px;
   }
 
-  .Screen3D {
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 387px;
-    width: 327px;
-    margin-left: 5px;
-  }
-
   .PrintingData3-6D {
     display: flex;
     list-style: none;
@@ -1234,17 +1604,6 @@ input#Name {
     line-height: 24px;
     margin-top: -14px;
     padding-left: 13px;
-  }
-
-  .Screen4D {
-    background-image: url(screen.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    background-size: cover;
-    width: 327px;
-    margin-left: 5px;
   }
 
   .PrintingData4 {
@@ -1275,26 +1634,6 @@ input#Name {
     padding-left: 13px;
   }
 
-  .Screen5D {
-    background-image: url(2D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
-  }
-
-  .Screen6D {
-    background-image: url(3D.png);
-    background-repeat: no-repeat;
-    display: flex;
-    margin-top: 0;
-    height: 388px;
-    width: 327px;
-    margin-left: 5px;
-  }
-
   .secondProjectButtonD {
     display: none;
   }
@@ -1302,13 +1641,14 @@ input#Name {
   /* about me page */
   .AboutMePage {
     width: 100%;
-    margin-top: 6%;
+    margin-top: 2%;
     height: 950px;
     display: flex;
   }
 
   .Header {
     margin-left: 142px;
+    width: 50%;
   }
 
   .AboutMeTextSection {
@@ -1348,7 +1688,7 @@ input#Name {
 
   .AboutLine2 {
     width: 85%;
-    top: 506px;
+    top: 538px;
     position: absolute;
     border: 1px solid #fff;
     align-items: center;
@@ -1367,8 +1707,9 @@ input#Name {
 
   .containerTech {
     display: grid;
-    grid-template-columns: repeat(3, 352px);
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
+    width: 100%;
     margin-top: 78px;
   }
 
@@ -1392,13 +1733,13 @@ input#Name {
   }
 
   .smallPara {
-    text-align: start;
-    width: 373px;
-    margin-left: 8%;
+    text-align: end;
+    width: 100%;
+    margin-left: 0;
   }
 
   .firstForm {
-    height: 286px;
+    height: 298px;
     width: 100%;
     display: flex;
     padding: 0;
@@ -1406,18 +1747,21 @@ input#Name {
     flex-direction: column;
     margin-right: 0;
     margin-left: 0;
-    margin-top: 8px;
+    margin-top: 0;
   }
 
   .input {
-    width: 54%;
+    width: 100%;
     align-self: flex-start;
-    margin-top: -216px;
-    margin-left: 36%;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
   }
 
   .mainContent {
     flex: none;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     color: #172b4d;
     font-weight: 700;
     text-align: center;
@@ -1437,19 +1781,30 @@ input#Name {
   }
 
   .gaps1 {
-    margin: 4px -19px 0;
-    width: 315px;
+    margin: 2px 0 0;
+    width: 216px;
+    border: 1px solid #dbd8d7;
+  }
+
+  .gaps11 {
+    margin: 2px 0 13px;
+    width: 216px;
     border: 1px solid #dbd8d7;
   }
 
   .gaps2 {
-    margin: -3px -17px 0;
-    width: 670px;
+    margin: 2px 0 0;
+    width: 446px;
     border: 1px solid #dbd8d7;
+  }
+
+  .subInput {
+    width: 95%;
   }
 
   .newInputName {
     display: none;
+    margin-left: 0;
   }
 
   .newInputName01 {
@@ -1458,11 +1813,11 @@ input#Name {
     display: flex;
     flex-direction: column;
     flex: 1 auto;
-    padding-right: 100px;
+    padding-right: 0;
     border: none;
     font-family: "Inter", sans-serif;
-    margin-left: 69px;
-    margin-right: -42px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .newInputName02 {
@@ -1471,11 +1826,11 @@ input#Name {
     display: flex;
     flex-direction: column;
     flex: 1 auto;
-    padding-right: 100px;
+    padding-right: 0;
     border: none;
     font-family: "Inter", sans-serif;
-    margin-left: 425px;
-    margin-right: -42px;
+    margin-left: 240px;
+    margin-right: 0;
   }
 
   input#Name {
@@ -1483,13 +1838,16 @@ input#Name {
   }
 
   .newInputEmail {
-    margin: 30px 150px 29px 68px;
+    margin-top: 32px;
+    margin-left: 0;
     font-weight: 400;
     position: absolute;
+    width: 46%;
     display: flex;
     flex-direction: column;
     flex: 1 auto;
-    padding-right: 100px;
+    padding-right: 0;
+    margin-right: 0;
     border: none;
     font-family: "Inter", sans-serif;
   }
@@ -1506,53 +1864,68 @@ input#Name {
     letter-spacing: 0;
     color: #3c3a39;
     text-align: left;
-    padding: 12px;
+    padding: 0;
     height: 90px;
-    margin: 56px;
-    margin-top: 54px;
-    width: 644px;
-  }
+    margin: 0;
+    margin-top: 65px;
+    width: 90%;
 
-  #textArea1 {
-    border: none;
-    width: 548px;
-    margin-left: -12px;
-  }
+    #textArea1 {
+      border: none;
+      width: 548px;
+      margin-left: 0;
+    }
 
-  #Email {
-    border: none;
-    width: 538px;
-  }
+    #Email {
+      border: none;
+      width: 90%;
+    }
 
-  .button1 {
-    width: 136px;
-    height: 56px;
-    margin-top: -36px;
-    margin-left: 57px;
-    background-color: #ff6b00;
-  }
+    .button1 {
+      width: 136px;
+      height: 56px;
+      margin-top: -36px;
+      margin-left: 57px;
+      background-color: #ff6b00;
+    }
 
-  .line3D {
-    margin-top: 526px;
-    height: 10pc;
-    width: 80%;
-  }
+    .gap2 {
+      margin-top: 0;
+    }
 
-  .line3 {
-    width: 100%;
-    margin-top: 18px;
-  }
+    .line3 {
+      width: 100%;
+      margin-top: 18px;
+    }
 
-  .connectIcons22 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 24px;
-    list-style: none;
-    margin-left: 46%;
-    margin-top: 20px;
-    width: 200px;
-    height: 40px;
+    .submit {
+      border: none;
+      background-color: #ff6b00;
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      font-style: normal;
+      font-family: "Inter", sans-serif;
+      margin-top: 10px;
+      margin-left: 0;
+      width: 124px;
+      height: 64px;
+      align-items: center;
+    }
+
+    .connectIcons22 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 24px;
+      list-style: none;
+      margin-left: 46%;
+      margin-top: 20px;
+      width: 200px;
+      height: 40px;
+    }
   }
 }
