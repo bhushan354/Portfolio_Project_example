@@ -82,6 +82,11 @@
   flex-grow: 0;
 }
 
+.myLogo {
+  transform: rotate(45deg); 
+  background-color: pink;
+}
+
 .menuButton {
   width: 70px;
   height: 16px;
@@ -366,8 +371,10 @@
   font-size: 17px;
   display: inline-block;
   cursor: pointer;
+
   width: 122px;
   height: 62px;
+
   margin-top: 4px;
   margin-left: 0;
 }
