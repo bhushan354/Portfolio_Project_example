@@ -80,14 +80,6 @@ const projects = [
     liveLink: 'https://google.com',
     sourceLink: 'https://google.com',
   },
-  {
-    name: 'Professional Art Printing Data',
-    description: ' A daily selection of privately personalized reads  Lorem Ipsum is simply dummy text of the printing and typesetting industry ',
-    image: 'screen.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    liveLink: 'https://google.com',
-    sourceLink: 'https://google.com',
-  },
 ];
 
 // generatingg six cards dynamically using javascript
